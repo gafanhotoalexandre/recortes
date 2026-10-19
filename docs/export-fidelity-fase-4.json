@@ -1,0 +1,2527 @@
+{
+  "reference": "Normal renderScene with originals vs sequential renderExport, and selected execution strategy. Same photograph reused with independent crops in every frame; 1000px inspection scale. No stored baselines replaced.",
+  "cases": [
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.00062875,
+        "changedRatio": 0.0000075,
+        "max": 134
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0544325,
+        "changedRatio": 0.00209375,
+        "max": 63
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.06529633333333333,
+        "changedRatio": 0.002041,
+        "max": 107
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.016141333333333334,
+        "changedRatio": 0.000625,
+        "max": 92
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.008238380809595202,
+        "changedRatio": 0.000031484257871064466,
+        "max": 128
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0537856071964018,
+        "changedRatio": 0.0008995502248875562,
+        "max": 105
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.006851956624233852,
+        "changedRatio": 0.000019801980198019803,
+        "max": 77
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.03172512965582273,
+        "changedRatio": 0.001323903818953324,
+        "max": 97
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0021404166666666668,
+        "changedRatio": 0.00003625,
+        "max": 135
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.11752958333333334,
+        "changedRatio": 0.0033425,
+        "max": 80
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.09312933333333333,
+        "changedRatio": 0.002523,
+        "max": 120
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.043248666666666664,
+        "changedRatio": 0.001031,
+        "max": 103
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.026503248375812093,
+        "changedRatio": 0.0006971514242878561,
+        "max": 86
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.08999100449775112,
+        "changedRatio": 0.001350824587706147,
+        "max": 73
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.013874587458745875,
+        "changedRatio": 0.00003394625176803395,
+        "max": 118
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.003426214049976426,
+        "changedRatio": 0.00007213578500707214,
+        "max": 90
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0443175,
+        "changedRatio": 0.000745,
+        "max": 128
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.05436958333333333,
+        "changedRatio": 0.0018625,
+        "max": 108
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.09844433333333333,
+        "changedRatio": 0.002655,
+        "max": 120
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.032578333333333334,
+        "changedRatio": 0.000789,
+        "max": 99
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.047198900549725135,
+        "changedRatio": 0.0010494752623688155,
+        "max": 127
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.02250224887556222,
+        "changedRatio": 0.0002833583208395802,
+        "max": 91
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.07291513437057992,
+        "changedRatio": 0.001594059405940594,
+        "max": 115
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.05366760961810467,
+        "changedRatio": 0.0015007072135785008,
+        "max": 90
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.002958333333333333,
+        "changedRatio": 0.000055,
+        "max": 126
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.1299275,
+        "changedRatio": 0.00327375,
+        "max": 92
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.050377,
+        "changedRatio": 0.000802,
+        "max": 119
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.042672,
+        "changedRatio": 0.000981,
+        "max": 116
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0286151924037981,
+        "changedRatio": 0.0005142428785607197,
+        "max": 127
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.03873663168415792,
+        "changedRatio": 0.0005292353823088456,
+        "max": 95
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.07205280528052806,
+        "changedRatio": 0.0015968882602545968,
+        "max": 125
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.028356435643564357,
+        "changedRatio": 0.0008458274398868459,
+        "max": 108
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.07762208333333333,
+        "changedRatio": 0.00125625,
+        "max": 130
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.15540875,
+        "changedRatio": 0.00478375,
+        "max": 103
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.054359,
+        "changedRatio": 0.001098,
+        "max": 120
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.059077333333333336,
+        "changedRatio": 0.001388,
+        "max": 79
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0721024487756122,
+        "changedRatio": 0.0017211394302848577,
+        "max": 127
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.05861769115442279,
+        "changedRatio": 0.0010494752623688155,
+        "max": 101
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.08972371522866572,
+        "changedRatio": 0.0021895332390381894,
+        "max": 118
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.05349033474776049,
+        "changedRatio": 0.0010975954738330976,
+        "max": 119
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.028334166666666667,
+        "changedRatio": 0.0007025,
+        "max": 137
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.042452083333333335,
+        "changedRatio": 0.00076875,
+        "max": 91
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.023520333333333334,
+        "changedRatio": 0.000464,
+        "max": 98
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.03560733333333333,
+        "changedRatio": 0.000654,
+        "max": 95
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.02439630184907546,
+        "changedRatio": 0.0005847076461769115,
+        "max": 115
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.039053973013493254,
+        "changedRatio": 0.0007616191904047976,
+        "max": 144
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.02455068363979255,
+        "changedRatio": 0.00047383309759547386,
+        "max": 96
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0483998114097124,
+        "changedRatio": 0.0009222065063649222,
+        "max": 100
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.009875833333333334,
+        "changedRatio": 0.0003825,
+        "max": 50
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0060304166666666666,
+        "changedRatio": 0,
+        "max": 23
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.00775,
+        "changedRatio": 0.000032,
+        "max": 25
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.010141429285357322,
+        "changedRatio": 0.00003898050974512744,
+        "max": 25
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.02286845827439887,
+        "changedRatio": 0.00042715700141442717,
+        "max": 82
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.024576143328618575,
+        "changedRatio": 0.0004214992927864215,
+        "max": 82
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.027542916666666667,
+        "changedRatio": 0.000695,
+        "max": 142
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0416375,
+        "changedRatio": 0.00077,
+        "max": 98
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.024954,
+        "changedRatio": 0.000492,
+        "max": 105
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.03867866666666667,
+        "changedRatio": 0.00075,
+        "max": 134
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.028675662168915542,
+        "changedRatio": 0.0006761619190404798,
+        "max": 99
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.044981009495252376,
+        "changedRatio": 0.0008290854572713643,
+        "max": 83
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.02215935879302216,
+        "changedRatio": 0.00039603960396039607,
+        "max": 142
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.043854785478547854,
+        "changedRatio": 0.000842998585572843,
+        "max": 105
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.0061716666666666664,
+        "changedRatio": 0.00012125,
+        "max": 144
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.07106625,
+        "changedRatio": 0.0024725,
+        "max": 105
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.019673,
+        "changedRatio": 0.000766,
+        "max": 107
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.034669,
+        "changedRatio": 0.001006,
+        "max": 137
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.02662768615692154,
+        "changedRatio": 0.0005907046476761619,
+        "max": 122
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.040629185407296355,
+        "changedRatio": 0.0009970014992503747,
+        "max": 117
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.03241819896275342,
+        "changedRatio": 0.0010282885431400282,
+        "max": 125
+      }
+    },
+    {
+      "browser": "chromium",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0.02327911362564828,
+        "changedRatio": 0.0004611032531824611,
+        "max": 122
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "lado",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "quatro",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "janela",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "postal",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "mural",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "retalhos",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "firefox",
+      "strategy": "worker",
+      "model": "arcos",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "lado",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "lado",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "quatro",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "quatro",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "janela",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "janela",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "postal",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "postal",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "mural",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "mural",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "retalhos",
+      "format": "square",
+      "size": "high",
+      "dimensions": {
+        "width": 2800,
+        "height": 2800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "retalhos",
+      "format": "square",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "high",
+      "dimensions": {
+        "width": 3000,
+        "height": 2000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "share",
+      "dimensions": {
+        "width": 1800,
+        "height": 1200
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "high",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "share",
+      "dimensions": {
+        "width": 1273,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "arcos",
+      "format": "portrait",
+      "size": "high",
+      "dimensions": {
+        "width": 2400,
+        "height": 3000
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    },
+    {
+      "browser": "webkit",
+      "strategy": "main",
+      "model": "arcos",
+      "format": "portrait",
+      "size": "share",
+      "dimensions": {
+        "width": 1440,
+        "height": 1800
+      },
+      "mainDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      },
+      "selectedDifference": {
+        "mae": 0,
+        "changedRatio": 0,
+        "max": 0
+      }
+    }
+  ],
+  "additionalFiles": [
+    {
+      "model": "lado",
+      "format": "portrait",
+      "size": "high",
+      "type": "jpeg",
+      "bytes": 267895
+    },
+    {
+      "model": "lado",
+      "format": "portrait",
+      "size": "high",
+      "type": "pdf",
+      "bytes": 289335
+    },
+    {
+      "model": "lado",
+      "format": "portrait",
+      "size": "share",
+      "type": "jpeg",
+      "bytes": 142186
+    },
+    {
+      "model": "lado",
+      "format": "portrait",
+      "size": "share",
+      "type": "pdf",
+      "bytes": 154928
+    },
+    {
+      "model": "quatro",
+      "format": "square",
+      "size": "high",
+      "type": "jpeg",
+      "bytes": 417829
+    },
+    {
+      "model": "quatro",
+      "format": "square",
+      "size": "high",
+      "type": "pdf",
+      "bytes": 453686
+    },
+    {
+      "model": "quatro",
+      "format": "square",
+      "size": "share",
+      "type": "jpeg",
+      "bytes": 249660
+    },
+    {
+      "model": "quatro",
+      "format": "square",
+      "size": "share",
+      "type": "pdf",
+      "bytes": 271910
+    },
+    {
+      "model": "janela",
+      "format": "landscape",
+      "size": "high",
+      "type": "jpeg",
+      "bytes": 325832
+    },
+    {
+      "model": "janela",
+      "format": "landscape",
+      "size": "high",
+      "type": "pdf",
+      "bytes": 352649
+    },
+    {
+      "model": "janela",
+      "format": "landscape",
+      "size": "share",
+      "type": "jpeg",
+      "bytes": 178385
+    },
+    {
+      "model": "janela",
+      "format": "landscape",
+      "size": "share",
+      "type": "pdf",
+      "bytes": 195422
+    },
+    {
+      "model": "postal",
+      "format": "a4",
+      "size": "high",
+      "type": "jpeg",
+      "bytes": 400553
+    },
+    {
+      "model": "postal",
+      "format": "a4",
+      "size": "high",
+      "type": "pdf",
+      "bytes": 435067
+    },
+    {
+      "model": "postal",
+      "format": "a4",
+      "size": "share",
+      "type": "jpeg",
+      "bytes": 181714
+    },
+    {
+      "model": "postal",
+      "format": "a4",
+      "size": "share",
+      "type": "pdf",
+      "bytes": 198494
+    },
+    {
+      "model": "mural",
+      "format": "portrait",
+      "size": "high",
+      "type": "jpeg",
+      "bytes": 406805
+    },
+    {
+      "model": "mural",
+      "format": "portrait",
+      "size": "high",
+      "type": "pdf",
+      "bytes": 441772
+    },
+    {
+      "model": "mural",
+      "format": "portrait",
+      "size": "share",
+      "type": "jpeg",
+      "bytes": 224635
+    },
+    {
+      "model": "mural",
+      "format": "portrait",
+      "size": "share",
+      "type": "pdf",
+      "bytes": 244664
+    },
+    {
+      "model": "retalhos",
+      "format": "square",
+      "size": "high",
+      "type": "jpeg",
+      "bytes": 530811
+    },
+    {
+      "model": "retalhos",
+      "format": "square",
+      "size": "high",
+      "type": "pdf",
+      "bytes": 584621
+    },
+    {
+      "model": "retalhos",
+      "format": "square",
+      "size": "share",
+      "type": "jpeg",
+      "bytes": 317833
+    },
+    {
+      "model": "retalhos",
+      "format": "square",
+      "size": "share",
+      "type": "pdf",
+      "bytes": 350734
+    },
+    {
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "high",
+      "type": "jpeg",
+      "bytes": 426508
+    },
+    {
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "high",
+      "type": "pdf",
+      "bytes": 461982
+    },
+    {
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "share",
+      "type": "jpeg",
+      "bytes": 252321
+    },
+    {
+      "model": "fotogramas",
+      "format": "landscape",
+      "size": "share",
+      "type": "pdf",
+      "bytes": 274019
+    },
+    {
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "high",
+      "type": "jpeg",
+      "bytes": 532565
+    },
+    {
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "high",
+      "type": "pdf",
+      "bytes": 585048
+    },
+    {
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "share",
+      "type": "jpeg",
+      "bytes": 238764
+    },
+    {
+      "model": "bilhetes",
+      "format": "a4",
+      "size": "share",
+      "type": "pdf",
+      "bytes": 263438
+    },
+    {
+      "model": "arcos",
+      "format": "portrait",
+      "size": "high",
+      "type": "jpeg",
+      "bytes": 256535
+    },
+    {
+      "model": "arcos",
+      "format": "portrait",
+      "size": "high",
+      "type": "pdf",
+      "bytes": 278589
+    },
+    {
+      "model": "arcos",
+      "format": "portrait",
+      "size": "share",
+      "type": "jpeg",
+      "bytes": 135414
+    },
+    {
+      "model": "arcos",
+      "format": "portrait",
+      "size": "share",
+      "type": "pdf",
+      "bytes": 146730
+    }
+  ]
+}

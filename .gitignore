@@ -1,0 +1,27 @@
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+playwright-report-dev/
+test-results-dev/
+*.tsbuildinfo
+*.local
+.vite/
+.cache/
+tmp/
+*.log
+.env
+.env.*
+!.env.example
+.vercel/
+output/
+# Local pre-release archive; do not publish it with the source repository.
+/recortes_prerelease2.rar
+# Historical copies may contain the retired third-party color wheel.
+historico-local/
+docs/screenshots-fase-3/
+docs/screenshots-fase-4/
+tests/e2e/workbench.spec.ts-snapshots/bancada-*.png
+tests/e2e/workbench.spec.ts-snapshots/mobile-*.png
+tests/e2e/workbench.spec.ts-snapshots/fase-2-*.png

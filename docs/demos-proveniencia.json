@@ -1,0 +1,300 @@
+{
+  "reviewedOn": "2026-10-19",
+  "upstreamVersion": "v0.25.2",
+  "upstreamRegistryUrl": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/_registry.py",
+  "upstreamRegistrySha256": "1029735ee9f5a3a857219c8b6f80d181d9b0d744610f224e028fabaffd8bf69a",
+  "method": "Sete fotografias mantêm a verificação de origem anterior; photo-8.jpg é gerado por scripts/generate-colors.mjs, sem entrada externa. O registro retiredImage descreve apenas o material histórico ignorado pelo Git.",
+  "images": [
+    {
+      "file": "public/demos/photo-1.jpg",
+      "bytes": 31061,
+      "width": 460,
+      "height": 560,
+      "sha256": "79a2f2d65ca8a8e34770cde5eb77f17527608936ceadbf99c08d66d1601e748e",
+      "exif": {},
+      "info": {
+        "jfif": "257",
+        "jfif_version": "(1, 1)",
+        "jfif_unit": "0",
+        "jfif_density": "(1, 1)"
+      },
+      "upstream": {
+        "file": "public/demos/photo-1.jpg",
+        "upstream": "coffee.png",
+        "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/coffee.png",
+        "upstreamSize": [
+          600,
+          400
+        ],
+        "localSize": [
+          460,
+          560
+        ],
+        "upstreamSha256": "cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7",
+        "registryMatches": true,
+        "mode": "fit",
+        "filter": "BILINEAR",
+        "mae": 10.3515799689441,
+        "byteExactJpegSettings": []
+      },
+      "identityEvidence": "Inspeção visual e comparação de pixels após recorte central; JPEG local é derivado, não cópia binária."
+    },
+    {
+      "file": "public/demos/photo-2.jpg",
+      "bytes": 34440,
+      "width": 460,
+      "height": 560,
+      "sha256": "916ebc47c018bc7440c5337c8f0937b714ef6c45fd915b32c6a9283cfd6edff2",
+      "exif": {},
+      "info": {
+        "jfif": "257",
+        "jfif_version": "(1, 1)",
+        "jfif_unit": "0",
+        "jfif_density": "(1, 1)"
+      },
+      "upstream": {
+        "file": "public/demos/photo-2.jpg",
+        "upstream": "chelsea.png",
+        "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/chelsea.png",
+        "upstreamSize": [
+          451,
+          300
+        ],
+        "localSize": [
+          460,
+          560
+        ],
+        "upstreamSha256": "596aa1e7cb875eb79f437e310381d26b338a81c2da23439704a73c4651e8c4bb",
+        "registryMatches": true,
+        "mode": "fit",
+        "filter": "BICUBIC",
+        "mae": 6.331526915113872,
+        "byteExactJpegSettings": []
+      },
+      "identityEvidence": "Inspeção visual e comparação de pixels após recorte central; JPEG local é derivado, não cópia binária."
+    },
+    {
+      "file": "public/demos/photo-3.jpg",
+      "bytes": 17799,
+      "width": 460,
+      "height": 560,
+      "sha256": "24dabf1ee0f77be4c8eea065da1a69607036b210ad453ec3a9b8b3b3c1a050b3",
+      "exif": {},
+      "info": {
+        "jfif": "257",
+        "jfif_version": "(1, 1)",
+        "jfif_unit": "0",
+        "jfif_density": "(1, 1)"
+      },
+      "upstream": {
+        "file": "public/demos/photo-3.jpg",
+        "upstream": "rocket.jpg",
+        "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/rocket.jpg",
+        "upstreamSize": [
+          640,
+          427
+        ],
+        "localSize": [
+          460,
+          560
+        ],
+        "upstreamSha256": "c2dd0de7c538df8d111e479619b129464d0269d0ae5fd18ca91d33a7fdfea95c",
+        "registryMatches": true,
+        "mode": "fit",
+        "filter": "BILINEAR",
+        "mae": 4.687128623188406,
+        "byteExactJpegSettings": []
+      },
+      "identityEvidence": "Inspeção visual e comparação de pixels após recorte central; JPEG local é derivado, não cópia binária."
+    },
+    {
+      "file": "public/demos/photo-4.jpg",
+      "bytes": 37772,
+      "width": 460,
+      "height": 560,
+      "sha256": "caf8a2c9c3a71545a6747c8ea3f120a460425a98c8ec45010576a1f112466ac0",
+      "exif": {},
+      "info": {
+        "jfif": "257",
+        "jfif_version": "(1, 1)",
+        "jfif_unit": "0",
+        "jfif_density": "(1, 1)"
+      },
+      "upstream": {
+        "file": "public/demos/photo-4.jpg",
+        "upstream": "astronaut.png",
+        "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/astronaut.png",
+        "upstreamSize": [
+          512,
+          512
+        ],
+        "localSize": [
+          460,
+          560
+        ],
+        "upstreamSha256": "88431cd9653ccd539741b555fb0a46b61558b301d4110412b5bc28b5e3ea6cb5",
+        "registryMatches": true,
+        "mode": "fit",
+        "filter": "BILINEAR",
+        "mae": 8.001158126293996,
+        "byteExactJpegSettings": []
+      },
+      "identityEvidence": "Inspeção visual e comparação de pixels após recorte central; JPEG local é derivado, não cópia binária."
+    },
+    {
+      "file": "public/demos/photo-5.jpg",
+      "bytes": 33600,
+      "width": 460,
+      "height": 560,
+      "sha256": "8ad400e7aa8b1a59605fef352dae00ee2850561fe05b477a711628b578d8a288",
+      "exif": {},
+      "info": {
+        "jfif": "257",
+        "jfif_version": "(1, 1)",
+        "jfif_unit": "0",
+        "jfif_density": "(1, 1)"
+      },
+      "upstream": {
+        "file": "public/demos/photo-5.jpg",
+        "upstream": "camera.png",
+        "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/camera.png",
+        "upstreamSize": [
+          512,
+          512
+        ],
+        "localSize": [
+          460,
+          560
+        ],
+        "upstreamSha256": "b0793d2adda0fa6ae899c03989482bff9a42d3d5690fc7e3648f2795d730c23a",
+        "registryMatches": true,
+        "mode": "fit",
+        "filter": "BILINEAR",
+        "mae": 4.9806288819875775,
+        "byteExactJpegSettings": []
+      },
+      "identityEvidence": "Inspeção visual e comparação de pixels após recorte central; JPEG local é derivado, não cópia binária."
+    },
+    {
+      "file": "public/demos/photo-6.jpg",
+      "bytes": 74824,
+      "width": 460,
+      "height": 560,
+      "sha256": "9a80f8b6e4aab7ad317a5aa1869b8d31d738340b482d78cebcc3937c05a44be3",
+      "exif": {},
+      "info": {
+        "jfif": "257",
+        "jfif_version": "(1, 1)",
+        "jfif_unit": "0",
+        "jfif_density": "(1, 1)"
+      },
+      "upstream": {
+        "file": "public/demos/photo-6.jpg",
+        "upstream": "grass.png",
+        "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/grass.png",
+        "upstreamSize": [
+          512,
+          512
+        ],
+        "localSize": [
+          460,
+          560
+        ],
+        "upstreamSha256": "b6b6022426b38936c43a4ac09635cd78af074e90f42ffa8227ac8b7452d39f89",
+        "registryMatches": true,
+        "mode": "fit",
+        "filter": "BICUBIC",
+        "mae": 5.180675465838509,
+        "byteExactJpegSettings": []
+      },
+      "identityEvidence": "Inspeção visual e comparação de pixels após recorte central; JPEG local é derivado, não cópia binária."
+    },
+    {
+      "file": "public/demos/photo-7.jpg",
+      "bytes": 42333,
+      "width": 460,
+      "height": 560,
+      "sha256": "626ff0859463aedba4af0e85050207e93ffaab8af39c021f041703565279664a",
+      "exif": {},
+      "info": {
+        "jfif": "257",
+        "jfif_version": "(1, 1)",
+        "jfif_unit": "0",
+        "jfif_density": "(1, 1)"
+      },
+      "upstream": {
+        "file": "public/demos/photo-7.jpg",
+        "upstream": "hubble_deep_field.jpg",
+        "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/hubble_deep_field.jpg",
+        "upstreamSize": [
+          1000,
+          872
+        ],
+        "localSize": [
+          460,
+          560
+        ],
+        "upstreamSha256": "3a19c5dd8a927a9334bb1229a6d63711b1c0c767fb27e2286e7c84a3e2c2f5f4",
+        "registryMatches": true,
+        "mode": "fit",
+        "filter": "BILINEAR",
+        "mae": 3.709072204968944,
+        "byteExactJpegSettings": []
+      },
+      "identityEvidence": "Inspeção visual e comparação de pixels após recorte central; JPEG local é derivado, não cópia binária."
+    },
+    {
+      "file": "public/demos/photo-8.jpg",
+      "bytes": 37621,
+      "width": 460,
+      "height": 560,
+      "sha256": "598f61e370a74ea058b4977e7b91482609387b9dbe35df6655d55967227a97b0",
+      "origin": {
+        "id": "demo-8",
+        "source": "scripts/generate-colors.mjs",
+        "sha256": "598f61e370a74ea058b4977e7b91482609387b9dbe35df6655d55967227a97b0",
+        "description": "Estudo cromático original: seis faixas de papel com gradientes e grão procedural."
+      },
+      "externalInputs": false,
+      "usage": "Criado para uso e distribuição com recortes a pedido do autor; licença geral de reutilização independente não definida."
+    }
+  ],
+  "retiredImage": {
+    "file": "public/demos/photo-8.jpg",
+    "bytes": 11048,
+    "width": 460,
+    "height": 560,
+    "sha256": "c6b81f9247fb3950987804137db973ab988776b3d948d8778eea9cc55b12249e",
+    "exif": {},
+    "info": {
+      "jfif": "257",
+      "jfif_version": "(1, 1)",
+      "jfif_unit": "0",
+      "jfif_density": "(1, 1)"
+    },
+    "upstream": {
+      "file": "public/demos/photo-8.jpg",
+      "upstream": "color.png",
+      "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/color.png",
+      "upstreamSize": [
+        371,
+        370
+      ],
+      "localSize": [
+        460,
+        560
+      ],
+      "upstreamSha256": "7d2df993de2b4fa2a78e04e5df8050f49a9c511aa75e59ab3bd56ac9c98aef7e",
+      "registryMatches": true,
+      "mode": "fit",
+      "filter": "BILINEAR",
+      "mae": 4.8556884057971015,
+      "byteExactJpegSettings": []
+    },
+    "identityEvidence": "Inspeção visual e comparação de pixels após recorte central; JPEG local é derivado, não cópia binária.",
+    "archivedAt": "historico-local/demos/photo-8-scikit.jpg",
+    "distributed": false
+  },
+  "currentSet": "Sete fotografias documentadas do scikit-image e estudo cromático original do recortes",
+  "historicalMethod": "Pillow: resize e ImageOps.fit para cada Resampling; menor MAE RGB sem ajustes de cor. Comparação identifica correspondência; não demonstra autorização autoral. Tentativas de JPEG 60–100/subsampling 0–2 não produziram identidade binária."
+}

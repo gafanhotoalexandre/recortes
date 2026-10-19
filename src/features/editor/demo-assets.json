@@ -1,0 +1,61 @@
+{
+  "sourceHash": "cde6f552440d7b3d417888390fdb554543e9b810156112d6e533a6596f3b669a",
+  "photos": [
+    {
+      "id": "demo-1",
+      "name": "Um café",
+      "src": "/demos/photo-1.jpg"
+    },
+    {
+      "id": "demo-2",
+      "name": "O gato",
+      "src": "/demos/photo-2.jpg"
+    },
+    {
+      "id": "demo-3",
+      "name": "Lançamento",
+      "src": "/demos/photo-3.jpg"
+    },
+    {
+      "id": "demo-4",
+      "name": "Retrato",
+      "src": "/demos/photo-4.jpg"
+    },
+    {
+      "id": "demo-5",
+      "name": "Na rua",
+      "src": "/demos/photo-5.jpg"
+    },
+    {
+      "id": "demo-6",
+      "name": "Texturas",
+      "src": "/demos/photo-6.jpg"
+    },
+    {
+      "id": "demo-7",
+      "name": "Noite",
+      "src": "/demos/photo-7.jpg"
+    },
+    {
+      "id": "demo-8",
+      "name": "Cores",
+      "src": "/demos/photo-8.jpg"
+    }
+  ],
+  "order": [
+    "demo-1",
+    "demo-4",
+    "demo-5",
+    "demo-2",
+    "demo-6",
+    "demo-7",
+    "demo-8",
+    "demo-3"
+  ],
+  "replacement": {
+    "id": "demo-8",
+    "source": "scripts/generate-colors.mjs",
+    "sha256": "598f61e370a74ea058b4977e7b91482609387b9dbe35df6655d55967227a97b0",
+    "description": "Estudo cromático original: seis faixas de papel com gradientes e grão procedural."
+  }
+}

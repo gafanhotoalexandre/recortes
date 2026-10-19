@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-18",
+  "command": "npm audit --omit=dev --json",
+  "knownVulnerabilities": 0,
+  "source": "npm audit registry response during Phase 4; no automatic dependency upgrades"
+}

@@ -1,0 +1,33 @@
+:root {
+  --ink: #3b303e;
+  --muted: #756878;
+  --line: #e3d9df;
+  --page: #f4f0ee;
+  --paper: #fffdf9;
+  --plum: #6b4b70;
+  --plum-hover: #544065;
+  --lavender: #e2d3e6;
+  --selected: #eee5ef;
+  --stage: #e9e1e7;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: 'Segoe UI', Arial, sans-serif;
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --primary: var(--plum);
+  --primary-foreground: #fff;
+  --muted-foreground: var(--muted);
+  --border: var(--line);
+  --ring: #9576b2;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-sans: var(--sans);
+  --font-serif: var(--serif);
+}

@@ -1,0 +1,20 @@
+{
+  "phase": 1,
+  "javascriptGzipBytes": 101758,
+  "cssGzipBytes": 6219,
+  "demoBytes": 282877,
+  "referenceBytes": 3989892,
+  "files": [
+    {
+      "file": "index-BMZJjIGx.css",
+      "bytes": 23283,
+      "gzipBytes": 6219
+    },
+    {
+      "file": "index-B_41vZK2.js",
+      "bytes": 328326,
+      "gzipBytes": 101758
+    }
+  ],
+  "note": "Metas orientam medição. Referências rasterizadas da Fase 1 são temporárias e não fazem parte do bundle JavaScript."
+}

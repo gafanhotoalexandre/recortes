@@ -1,0 +1,20 @@
+{
+  "phase": 3,
+  "javascriptGzipBytes": 117215,
+  "cssGzipBytes": 7404,
+  "demoBytes": 282877,
+  "referenceBytes": 3989892,
+  "files": [
+    {
+      "file": "index-0wnwlgjP.css",
+      "bytes": 29748,
+      "gzipBytes": 7404
+    },
+    {
+      "file": "index-BYvDBlUQ.js",
+      "bytes": 388068,
+      "gzipBytes": 117215
+    }
+  ],
+  "note": "Metas orientam medição. Referências da Fase 1 preservadas para comparação; a interface Canvas não as solicita."
+}

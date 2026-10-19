@@ -1,0 +1,57 @@
+{
+  "environment": "Chromium 156.0.8078.4, headless, Windows, viewport 1440x1000, localhost, sem throttling",
+  "description": "5 contextos novos; 20 trocas de formato. Tempos incluem leitura/decodificação de referência e duas oportunidades de pintura. Não mede Canvas, arraste, aparelho físico ou rede real.",
+  "formatChangeP95Ms": 47.79999999701977,
+  "runs": [
+    {
+      "firstContentfulPaintMs": 144,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        45.30000000447035,
+        32.099999994039536,
+        32,
+        32.20000000298023
+      ]
+    },
+    {
+      "firstContentfulPaintMs": 120,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        47.30000000447035,
+        30.899999998509884,
+        31.80000000447035,
+        32.69999999552965
+      ]
+    },
+    {
+      "firstContentfulPaintMs": 128,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        48.600000001490116,
+        30.80000000447035,
+        32.5,
+        31.899999998509884
+      ]
+    },
+    {
+      "firstContentfulPaintMs": 124,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        47.100000001490116,
+        31.700000002980232,
+        31.399999998509884,
+        32
+      ]
+    },
+    {
+      "firstContentfulPaintMs": 124,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        47.79999999701977,
+        31.200000002980232,
+        31.80000000447035,
+        32.899999998509884
+      ]
+    }
+  ]
+}

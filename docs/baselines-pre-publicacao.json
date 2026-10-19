@@ -1,0 +1,133 @@
+{
+  "reviewedOn": "2026-10-19",
+  "reason": "Remoção autorizada do rótulo Fase 4 · avaliação e de seu CSS; rodapé deixa de quebrar uma linha em alguns mobiles.",
+  "changed": [
+    {
+      "file": "tests\\e2e\\workbench.spec.ts-snapshots\\fase-3-bancada-1440-chromium-win32.png",
+      "beforeSize": [
+        1440,
+        1166
+      ],
+      "afterSize": [
+        1440,
+        1165
+      ],
+      "footerTop": 1132.140625,
+      "differenceAboveFooter": [
+        1318,
+        1131,
+        1409,
+        1132
+      ],
+      "beforeSha256": "d33c7d9161c8b13030388b6255bf8647787f2da05e2ded4d4785dd31a010a554",
+      "afterSha256": "857bbfd041e70eaf636e32288dd41fd17aca5631b81b3467af0d128befb6e00a",
+      "comparisonCutoffY": 1130,
+      "differenceAboveFooterInk": null
+    },
+    {
+      "file": "tests\\e2e\\workbench.spec.ts-snapshots\\fase-3-bancada-320-chromium-win32.png",
+      "beforeSize": [
+        320,
+        1253
+      ],
+      "afterSize": [
+        320,
+        1252
+      ],
+      "footerTop": 1114.4375,
+      "differenceAboveFooter": null,
+      "beforeSha256": "ef1f8348b4be757bb35a1719c85e796d3bb87e44bb9d01509b63f1ef5b989a1c",
+      "afterSha256": "9349727750cadf02df01292d359cf9e9f4637ee8d77af58a332c67b739f9217c",
+      "comparisonCutoffY": 1112,
+      "differenceAboveFooterInk": null
+    },
+    {
+      "file": "tests\\e2e\\workbench.spec.ts-snapshots\\fase-3-bancada-320-firefox-win32.png",
+      "beforeSize": [
+        320,
+        1253
+      ],
+      "afterSize": [
+        320,
+        1252
+      ],
+      "footerTop": 1114.449951171875,
+      "differenceAboveFooter": null,
+      "beforeSha256": "e01c31c80144def0fc8962f6d3651110c14b3cf95ed27a9a9b556ce80e875cbf",
+      "afterSha256": "4e7ec605346402173f09833e390697ab7391acf45137cd9fac44dd3f349abb7f",
+      "comparisonCutoffY": 1112,
+      "differenceAboveFooterInk": null
+    },
+    {
+      "file": "tests\\e2e\\workbench.spec.ts-snapshots\\fase-3-bancada-320-webkit-win32.png",
+      "beforeSize": [
+        320,
+        1259
+      ],
+      "afterSize": [
+        320,
+        1258
+      ],
+      "footerTop": 1120.4375,
+      "differenceAboveFooter": null,
+      "beforeSha256": "bad0eba3c7542b7272c76746b3386ee05825a405ec7c5a5e074dfbfbbec02ad7",
+      "afterSha256": "5ec36598b0794216a66fa2985017bb20fb954a7daa2738320679c5eff43c66da",
+      "comparisonCutoffY": 1118,
+      "differenceAboveFooterInk": null
+    },
+    {
+      "file": "tests\\e2e\\workbench.spec.ts-snapshots\\fase-3-bancada-390-chromium-win32.png",
+      "beforeSize": [
+        390,
+        1210
+      ],
+      "afterSize": [
+        390,
+        1187
+      ],
+      "footerTop": 1071.34375,
+      "differenceAboveFooter": null,
+      "beforeSha256": "a91e5bc8dd82fa5ee7a7e7159d4a9c8999402881958d377b5d8949d17032fe5c",
+      "afterSha256": "97836aea50ae57c8c8ecbca41593989f5271655dc32b590f085fe4fa443766c9",
+      "comparisonCutoffY": 1069,
+      "differenceAboveFooterInk": null
+    },
+    {
+      "file": "tests\\e2e\\workbench.spec.ts-snapshots\\fase-3-bancada-390-firefox-win32.png",
+      "beforeSize": [
+        390,
+        1210
+      ],
+      "afterSize": [
+        390,
+        1187
+      ],
+      "footerTop": 1071.3499755859375,
+      "differenceAboveFooter": null,
+      "beforeSha256": "064f811bec16e7fd8c0a9b91a7e0f49aec501b2884a5985d235907316e687d24",
+      "afterSha256": "2c59b9ac654102d6a4d05ae7dc6236a6a7bcb3b01700d59d0c4c6a1dea79e94d",
+      "comparisonCutoffY": 1069,
+      "differenceAboveFooterInk": null
+    },
+    {
+      "file": "tests\\e2e\\workbench.spec.ts-snapshots\\fase-3-bancada-390-webkit-win32.png",
+      "beforeSize": [
+        390,
+        1216
+      ],
+      "afterSize": [
+        390,
+        1193
+      ],
+      "footerTop": 1077.34375,
+      "differenceAboveFooter": null,
+      "beforeSha256": "c025e68a965b0168d3c22409477b0b972b8490125088b4f229bfb2b9cbe76e2a",
+      "afterSha256": "32f83d013e0297a8508223580853f07ebc2852297b76db583e6a8411afe3d572",
+      "comparisonCutoffY": 1075,
+      "differenceAboveFooterInk": null
+    }
+  ],
+  "unexpected": [],
+  "pocAndReferencesUnchanged": true,
+  "method": "Comparação RGB exata acima do rodapé, incluindo 2 px para a tinta/borda do antigo badge que ultrapassava a caixa de linha. O único diff no limite anterior era a borda superior do badge, 1 px acima da caixa; demais pixels acima da área são idênticos."
+}

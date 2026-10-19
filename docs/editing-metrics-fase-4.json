@@ -1,0 +1,606 @@
+{
+  "environment": "Chromium 156.0.8078.4, headless, Windows, 1440×1000 DPR1, localhost, sem throttling",
+  "fixture": "12 JPEG sintéticos de 4000×3000 (12MP), três contextos; 60 movimentos por arraste inclinado com zoom2.",
+  "limitations": "Instrumentação retém referências aos canvases para contar dimensões; não mede heap, RAM, GPU, buffers internos ou pressão de memória em aparelho físico. Picos separados não ocorreram necessariamente juntos. Não mede navegação real sob rede móvel.",
+  "runs": [
+    {
+      "importMs": 867.8343,
+      "originalCompressedBytes": 1174824,
+      "resources": {
+        "decoded": 12,
+        "closed": 12,
+        "liveBitmaps": 0,
+        "activeObjectUrls": 12,
+        "retainedPreviewRgbaBytes": 37748736,
+        "decodedLibraryThumbnailRgbaBytes": 2359296,
+        "trackedCanvasPeakRgbaBytes": 42212724,
+        "nativeBitmapPeakRgbaBytes": 48000000,
+        "importLongTasks": [],
+        "preprocessingCalls": [
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.3999999910593033
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 0.9000000059604645
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.4000000059604645
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.1000000089406967
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 0.8999999910593033
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.3999999910593033
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.1000000089406967
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.3999999910593033
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.4000000059604645
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 0.9000000059604645
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.4000000059604645
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.3999999910593033
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.0999999940395355
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 3.0999999940395355
+          }
+        ],
+        "importFrameIntervals": [
+          16.600000000000023,
+          16.69999999999999,
+          16.600000000000023,
+          16.69999999999999,
+          16.600000000000023,
+          16.69999999999999,
+          16.69999999999999,
+          16.69999999999999,
+          16.600000000000023,
+          16.69999999999999,
+          16.69999999999999,
+          16.600000000000023,
+          16.69999999999999,
+          16.700000000000045,
+          16.59999999999991,
+          16.700000000000045,
+          16.700000000000045,
+          16.59999999999991,
+          16.700000000000045,
+          16.700000000000045,
+          16.59999999999991,
+          16.700000000000045,
+          16.700000000000045,
+          16.59999999999991,
+          16.600000000000023,
+          16.800000000000068,
+          16.59999999999991,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.700000000000045,
+          16.700000000000045,
+          16.699999999999932,
+          16.5,
+          16.800000000000068,
+          16.59999999999991,
+          16.700000000000045,
+          16.700000000000045,
+          16.59999999999991,
+          16.600000000000023,
+          16.699999999999932,
+          16.700000000000045,
+          16.700000000000045,
+          16.59999999999991,
+          16.700000000000045,
+          16.600000000000136,
+          16.699999999999818,
+          16.700000000000045,
+          16.700000000000045
+        ]
+      },
+      "drag": {
+        "sampleCount": 60,
+        "frameIntervalP95Ms": 16.700000000000273,
+        "renderAndCopyMs": 8,
+        "longTasks": [],
+        "thumbnailDrawsDuring": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "thumbnailDrawsAfter": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "afterReset": {
+        "activeObjectUrls": 0,
+        "liveBitmaps": 0,
+        "retainedPreviewRgbaBytes": 0
+      }
+    },
+    {
+      "importMs": 862.0544999999997,
+      "originalCompressedBytes": 1174824,
+      "resources": {
+        "decoded": 12,
+        "closed": 12,
+        "liveBitmaps": 0,
+        "activeObjectUrls": 12,
+        "retainedPreviewRgbaBytes": 37748736,
+        "decodedLibraryThumbnailRgbaBytes": 2359296,
+        "trackedCanvasPeakRgbaBytes": 42212724,
+        "nativeBitmapPeakRgbaBytes": 48000000,
+        "importLongTasks": [],
+        "preprocessingCalls": [
+          {
+            "kind": "photo-preview",
+            "ms": 0.8999999910593033
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 0.8999999910593033
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.3999999910593033
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 0.8999999910593033
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.2999999970197678
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 0.800000011920929
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.2999999970197678
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.2000000029802322
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.7999999970197678
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.2999999970197678
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.6000000089406967
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.0999999940395355
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.1000000089406967
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.3999999910593033
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.4000000059604645
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.1000000089406967
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.3999999910593033
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          }
+        ],
+        "importFrameIntervals": [
+          16.599999999999966,
+          16.700000000000045,
+          16.69999999999999,
+          16.599999999999966,
+          16.700000000000045,
+          16.69999999999999,
+          16.599999999999966,
+          16.700000000000045,
+          16.69999999999999,
+          16.599999999999966,
+          16.700000000000045,
+          16.599999999999966,
+          16.69999999999999,
+          16.600000000000023,
+          16.799999999999955,
+          16.700000000000045,
+          16.600000000000023,
+          16.600000000000023,
+          16.799999999999955,
+          16.600000000000023,
+          16.699999999999932,
+          16.600000000000023,
+          16.700000000000045,
+          16.699999999999932,
+          16.600000000000023,
+          16.700000000000045,
+          16.699999999999932,
+          16.600000000000023,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.600000000000023,
+          16.700000000000045,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.700000000000045,
+          16.699999999999932,
+          16.600000000000136,
+          16.699999999999818,
+          16.600000000000136,
+          16.700000000000045,
+          16.699999999999818,
+          16.600000000000136,
+          16.700000000000045
+        ]
+      },
+      "drag": {
+        "sampleCount": 60,
+        "frameIntervalP95Ms": 16.700000000000273,
+        "renderAndCopyMs": 8.5,
+        "longTasks": [],
+        "thumbnailDrawsDuring": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "thumbnailDrawsAfter": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "afterReset": {
+        "activeObjectUrls": 0,
+        "liveBitmaps": 0,
+        "retainedPreviewRgbaBytes": 0
+      }
+    },
+    {
+      "importMs": 865.5664999999999,
+      "originalCompressedBytes": 1174824,
+      "resources": {
+        "decoded": 12,
+        "closed": 12,
+        "liveBitmaps": 0,
+        "activeObjectUrls": 12,
+        "retainedPreviewRgbaBytes": 37748736,
+        "decodedLibraryThumbnailRgbaBytes": 2359296,
+        "trackedCanvasPeakRgbaBytes": 42212724,
+        "nativeBitmapPeakRgbaBytes": 48000000,
+        "importLongTasks": [],
+        "preprocessingCalls": [
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.7000000029802322
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.1000000089406967
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.0999999940395355
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.4000000059604645
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.2000000029802322
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.3999999910593033
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1.0999999940395355
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.6000000089406967
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 0.8999999910593033
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.4000000059604645
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 0.9000000059604645
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.5999999940395355
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.3999999910593033
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 0.8999999910593033
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.4000000059604645
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.2999999970197678
+          },
+          {
+            "kind": "photo-preview",
+            "ms": 1
+          },
+          {
+            "kind": "photo-thumbnail-buffer",
+            "ms": 2.6000000089406967
+          }
+        ],
+        "importFrameIntervals": [
+          33.30000000000001,
+          16.600000000000023,
+          16.69999999999999,
+          16.69999999999999,
+          16.600000000000023,
+          16.69999999999999,
+          16.69999999999999,
+          16.600000000000023,
+          16.69999999999999,
+          16.69999999999999,
+          16.600000000000023,
+          16.69999999999999,
+          16.69999999999999,
+          16.600000000000023,
+          16.699999999999932,
+          16.600000000000023,
+          16.800000000000068,
+          16.59999999999991,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.600000000000023,
+          16.700000000000045,
+          16.699999999999932,
+          16.600000000000023,
+          16.700000000000045,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.600000000000023,
+          16.800000000000068,
+          16.5,
+          16.799999999999955,
+          16.700000000000045,
+          16.59999999999991,
+          16.600000000000023,
+          16.700000000000045,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.600000000000136,
+          16.799999999999955,
+          16.59999999999991,
+          16.700000000000045,
+          16.59999999999991,
+          16.700000000000045
+        ]
+      },
+      "drag": {
+        "sampleCount": 60,
+        "frameIntervalP95Ms": 16.700000000000273,
+        "renderAndCopyMs": 8.100000008940697,
+        "longTasks": [],
+        "thumbnailDrawsDuring": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "thumbnailDrawsAfter": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "afterReset": {
+        "activeObjectUrls": 0,
+        "liveBitmaps": 0,
+        "retainedPreviewRgbaBytes": 0
+      }
+    }
+  ]
+}

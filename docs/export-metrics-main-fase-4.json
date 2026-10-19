@@ -1,0 +1,2723 @@
+{
+  "environment": "Chromium local, synthetic textured fixtures. CDP x4 throttles the page target; worker CPU is not throttled. Total times across executors at x4 are not equivalent hardware comparisons. These checks are not a physical phone.",
+  "runs": [
+    {
+      "rate": 1,
+      "model": "bilhetes",
+      "format": "a4",
+      "type": "pdf",
+      "encoding": "jpeg",
+      "size": "high",
+      "fixture": "jpeg",
+      "duration": 656.1000000089407,
+      "bytes": 1888137,
+      "mime": "application/pdf",
+      "inputBytes": 3757806,
+      "decoded": 5,
+      "closed": 5,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 48000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [
+        72,
+        77
+      ],
+      "maxFrameGap": 66.70000000000005,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 655.4000000059605
+        },
+        {
+          "stage": "draw",
+          "ms": 0.30000001192092896
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 57.20000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 67.8999999910593
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 56.69999998807907
+        },
+        {
+          "stage": "draw",
+          "ms": 18.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "decode",
+          "ms": 55.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 74.20000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 17.100000008940697
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 57.5
+        },
+        {
+          "stage": "draw",
+          "ms": 14.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 6.700000002980232
+        },
+        {
+          "stage": "draw",
+          "ms": 4.700000002980232
+        },
+        {
+          "stage": "encode",
+          "ms": 60.30000001192093
+        },
+        {
+          "stage": "pdf",
+          "ms": 12.400000005960464
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 6.800000011920929
+        }
+      ],
+      "heapBefore": 852562,
+      "heapAfter": 10548003,
+      "offscreen": true
+    },
+    {
+      "rate": 1,
+      "model": "bilhetes",
+      "format": "a4",
+      "type": "pdf",
+      "encoding": "png",
+      "size": "high",
+      "fixture": "jpeg",
+      "duration": 1579.5,
+      "bytes": 9249823,
+      "mime": "application/pdf",
+      "inputBytes": 3757806,
+      "decoded": 5,
+      "closed": 5,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 48000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [
+        67,
+        75,
+        906
+      ],
+      "maxFrameGap": 66.59999999999991,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 1579.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.5
+        },
+        {
+          "stage": "draw",
+          "ms": 64.29999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.20000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 18.80000001192093
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.3999999910593
+        },
+        {
+          "stage": "draw",
+          "ms": 72.19999998807907
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55
+        },
+        {
+          "stage": "draw",
+          "ms": 17.299999997019768
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.30000001192093
+        },
+        {
+          "stage": "draw",
+          "ms": 13.099999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 0.29999999701976776
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "encode",
+          "ms": 131.6000000089407
+        },
+        {
+          "stage": "pdf",
+          "ms": 911.5999999940395
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 264.3999999910593
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 634.1000000089407
+        }
+      ],
+      "heapBefore": 3232066,
+      "heapAfter": 118498247,
+      "offscreen": true
+    },
+    {
+      "rate": 1,
+      "model": "arcos",
+      "format": "square",
+      "type": "pdf",
+      "encoding": "jpeg",
+      "size": "share",
+      "fixture": "alpha",
+      "duration": 104.79999999701977,
+      "bytes": 734264,
+      "mime": "application/pdf",
+      "inputBytes": 2279903,
+      "decoded": 3,
+      "closed": 3,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 4320000,
+      "outputCanvasBytes": 12960000,
+      "longTasks": [],
+      "maxFrameGap": 16.700000000000728,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 104.79999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 16.100000008940697
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 15.299999997019768
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 15.399999991059303
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 1.7999999970197678
+        },
+        {
+          "stage": "draw",
+          "ms": 0.7999999970197678
+        },
+        {
+          "stage": "encode",
+          "ms": 25
+        },
+        {
+          "stage": "pdf",
+          "ms": 5.100000008940697
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 3.0999999940395355
+        }
+      ],
+      "heapBefore": 3405055,
+      "heapAfter": 6734854,
+      "offscreen": true
+    },
+    {
+      "rate": 1,
+      "model": "arcos",
+      "format": "square",
+      "type": "pdf",
+      "encoding": "png",
+      "size": "share",
+      "fixture": "alpha",
+      "duration": 369.80000001192093,
+      "bytes": 1935626,
+      "mime": "application/pdf",
+      "inputBytes": 2279903,
+      "decoded": 3,
+      "closed": 3,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 4320000,
+      "outputCanvasBytes": 12960000,
+      "longTasks": [
+        261
+      ],
+      "maxFrameGap": 16.800000000000182,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 369.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "decode",
+          "ms": 15.899999991059303
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "decode",
+          "ms": 15.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 15.299999997019768
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "encode",
+          "ms": 35.29999999701977
+        },
+        {
+          "stage": "pdf",
+          "ms": 262.79999999701977
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 94.09999999403954
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 165.20000000298023
+        }
+      ],
+      "heapBefore": 3487293,
+      "heapAfter": 53410502,
+      "offscreen": true
+    },
+    {
+      "rate": 1,
+      "model": "fotogramas",
+      "format": "a4",
+      "type": "png",
+      "size": "high",
+      "fixture": "large",
+      "duration": 1134.6000000089407,
+      "bytes": 3677214,
+      "mime": "image/png",
+      "inputBytes": 9964765,
+      "decoded": 6,
+      "closed": 6,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 128000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [],
+      "maxFrameGap": 33.399999999999636,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 1134.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.6000000089406967
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 140.59999999403954
+        },
+        {
+          "stage": "draw",
+          "ms": 29.900000005960464
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "decode",
+          "ms": 143.5
+        },
+        {
+          "stage": "draw",
+          "ms": 19.30000001192093
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 143
+        },
+        {
+          "stage": "draw",
+          "ms": 18.400000005960464
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "decode",
+          "ms": 142.29999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 18.600000008940697
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "decode",
+          "ms": 143.29999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 19
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 142.80000001192093
+        },
+        {
+          "stage": "draw",
+          "ms": 18.69999998807907
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "encode",
+          "ms": 91.1000000089407
+        }
+      ],
+      "heapBefore": 3480381,
+      "heapAfter": 3523773,
+      "offscreen": true
+    },
+    {
+      "rate": 1,
+      "model": "mural",
+      "format": "a4",
+      "type": "jpeg",
+      "size": "high",
+      "fixture": "jpeg",
+      "duration": 681.1000000089407,
+      "bytes": 1856925,
+      "mime": "image/jpeg",
+      "inputBytes": 3757806,
+      "decoded": 8,
+      "closed": 8,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 48000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [],
+      "maxFrameGap": 16.800000000000182,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 681.1000000089407
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 57.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 18.600000008940697
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "decode",
+          "ms": 56.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 14.100000008940697
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 17.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 54.900000005960464
+        },
+        {
+          "stage": "draw",
+          "ms": 15.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 54.79999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 20.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 56.400000005960464
+        },
+        {
+          "stage": "draw",
+          "ms": 20.200000002980232
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 9.600000008940697
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.1000000089407
+        },
+        {
+          "stage": "draw",
+          "ms": 9.199999988079071
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "encode",
+          "ms": 65.6000000089407
+        }
+      ],
+      "heapBefore": 3498965,
+      "heapAfter": 3506154,
+      "offscreen": true
+    },
+    {
+      "rate": 1,
+      "model": "bilhetes",
+      "format": "a4",
+      "type": "pdf",
+      "encoding": "jpeg",
+      "size": "high",
+      "fixture": "jpeg",
+      "warm": true,
+      "duration": 611.7999999970198,
+      "bytes": 1888138,
+      "mime": "application/pdf",
+      "inputBytes": 3757806,
+      "decoded": 5,
+      "closed": 5,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 48000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [
+        69,
+        75
+      ],
+      "maxFrameGap": 66.70000000000073,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 611.7999999970198
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.400000005960464
+        },
+        {
+          "stage": "draw",
+          "ms": 66.79999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55
+        },
+        {
+          "stage": "draw",
+          "ms": 19
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "decode",
+          "ms": 57.400000005960464
+        },
+        {
+          "stage": "draw",
+          "ms": 72.59999999403954
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 55.29999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 17.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "decode",
+          "ms": 54.6000000089407
+        },
+        {
+          "stage": "draw",
+          "ms": 13.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "encode",
+          "ms": 61.6000000089407
+        },
+        {
+          "stage": "pdf",
+          "ms": 8.700000002980232
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 0
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 5.200000002980232
+        }
+      ],
+      "heapBefore": 3500069,
+      "heapAfter": 10219103,
+      "offscreen": true
+    },
+    {
+      "rate": 4,
+      "model": "bilhetes",
+      "format": "a4",
+      "type": "pdf",
+      "encoding": "jpeg",
+      "size": "high",
+      "fixture": "jpeg",
+      "duration": 1980,
+      "bytes": 1888138,
+      "mime": "application/pdf",
+      "inputBytes": 3757806,
+      "decoded": 5,
+      "closed": 5,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 48000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [
+        71,
+        398,
+        112,
+        52,
+        331,
+        104,
+        118
+      ],
+      "maxFrameGap": 416.5999999999999,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 1979.1000000089407
+        },
+        {
+          "stage": "draw",
+          "ms": 1.2000000029802322
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.29999999701976776
+        },
+        {
+          "stage": "decode",
+          "ms": 62.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 393.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 61.29999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 108.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "decode",
+          "ms": 62.900000005960464
+        },
+        {
+          "stage": "draw",
+          "ms": 328
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "decode",
+          "ms": 62.099999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 100.40000000596046
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "decode",
+          "ms": 61.29999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 86.29999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 17.100000008940697
+        },
+        {
+          "stage": "draw",
+          "ms": 12.099999994039536
+        },
+        {
+          "stage": "encode",
+          "ms": 255.5
+        },
+        {
+          "stage": "pdf",
+          "ms": 53.1000000089407
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 0.800000011920929
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 29.700000002980232
+        }
+      ],
+      "heapBefore": 852850,
+      "heapAfter": 10565634,
+      "offscreen": true
+    },
+    {
+      "rate": 4,
+      "model": "bilhetes",
+      "format": "a4",
+      "type": "pdf",
+      "encoding": "png",
+      "size": "high",
+      "fixture": "jpeg",
+      "duration": 6154,
+      "bytes": 9249824,
+      "mime": "application/pdf",
+      "inputBytes": 3757806,
+      "decoded": 5,
+      "closed": 5,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 48000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [
+        67,
+        371,
+        112,
+        50,
+        331,
+        106,
+        94,
+        3994
+      ],
+      "maxFrameGap": 400,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 6153.899999991059
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 63.099999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 366.19999998807907
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 63.20000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 108
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "decode",
+          "ms": 63.400000005960464
+        },
+        {
+          "stage": "draw",
+          "ms": 325.90000000596046
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 61.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 102.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "decode",
+          "ms": 61.5
+        },
+        {
+          "stage": "draw",
+          "ms": 86.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 2.9000000059604645
+        },
+        {
+          "stage": "draw",
+          "ms": 0.29999999701976776
+        },
+        {
+          "stage": "encode",
+          "ms": 583.7000000029802
+        },
+        {
+          "stage": "pdf",
+          "ms": 4004.7000000029802
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 1118.7999999970198
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 2846.2999999970198
+        }
+      ],
+      "heapBefore": 3229246,
+      "heapAfter": 83805442,
+      "offscreen": true
+    },
+    {
+      "rate": 4,
+      "model": "arcos",
+      "format": "square",
+      "type": "pdf",
+      "encoding": "jpeg",
+      "size": "share",
+      "fixture": "alpha",
+      "duration": 303.90000000596046,
+      "bytes": 734264,
+      "mime": "application/pdf",
+      "inputBytes": 2279903,
+      "decoded": 3,
+      "closed": 3,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 4320000,
+      "outputCanvasBytes": 12960000,
+      "longTasks": [],
+      "maxFrameGap": 33.399999999999636,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 303.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 0.4000000059604645
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.3999999910593033
+        },
+        {
+          "stage": "decode",
+          "ms": 22.30000001192093
+        },
+        {
+          "stage": "draw",
+          "ms": 0.30000001192092896
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 20.100000008940697
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "decode",
+          "ms": 19.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 8.400000005960464
+        },
+        {
+          "stage": "draw",
+          "ms": 5.799999997019768
+        },
+        {
+          "stage": "encode",
+          "ms": 97.5
+        },
+        {
+          "stage": "pdf",
+          "ms": 20.799999997019768
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 12.5
+        }
+      ],
+      "heapBefore": 3396827,
+      "heapAfter": 6701158,
+      "offscreen": true
+    },
+    {
+      "rate": 4,
+      "model": "arcos",
+      "format": "square",
+      "type": "pdf",
+      "encoding": "png",
+      "size": "share",
+      "fixture": "alpha",
+      "duration": 1505,
+      "bytes": 1935627,
+      "mime": "application/pdf",
+      "inputBytes": 2279903,
+      "decoded": 3,
+      "closed": 3,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 4320000,
+      "outputCanvasBytes": 12960000,
+      "longTasks": [
+        1142
+      ],
+      "maxFrameGap": 33.399999999999636,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 1504.5999999940395
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "decode",
+          "ms": 21.69999998807907
+        },
+        {
+          "stage": "draw",
+          "ms": 0.4000000059604645
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 27.299999997019768
+        },
+        {
+          "stage": "draw",
+          "ms": 0.4000000059604645
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "decode",
+          "ms": 20.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "encode",
+          "ms": 176.3999999910593
+        },
+        {
+          "stage": "pdf",
+          "ms": 1145.5999999940395
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 407.3999999910593
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 725.8999999910593
+        }
+      ],
+      "heapBefore": 3456677,
+      "heapAfter": 40366110,
+      "offscreen": true
+    },
+    {
+      "rate": 4,
+      "model": "fotogramas",
+      "format": "a4",
+      "type": "png",
+      "size": "high",
+      "fixture": "large",
+      "duration": 2061.7999999970198,
+      "bytes": 3677214,
+      "mime": "image/png",
+      "inputBytes": 9964765,
+      "decoded": 6,
+      "closed": 6,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 128000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [
+        143,
+        91,
+        92,
+        93,
+        92,
+        94
+      ],
+      "maxFrameGap": 133.29999999999927,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 2061.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 2.4000000059604645
+        },
+        {
+          "stage": "draw",
+          "ms": 0.3999999910593033
+        },
+        {
+          "stage": "draw",
+          "ms": 3
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.29999999701976776
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.4000000059604645
+        },
+        {
+          "stage": "draw",
+          "ms": 0.4000000059604645
+        },
+        {
+          "stage": "draw",
+          "ms": 0.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 156.29999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 133.59999999403954
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "decode",
+          "ms": 157.3999999910593
+        },
+        {
+          "stage": "draw",
+          "ms": 83.09999999403954
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "decode",
+          "ms": 160.3999999910593
+        },
+        {
+          "stage": "draw",
+          "ms": 83.6000000089407
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "decode",
+          "ms": 156.6000000089407
+        },
+        {
+          "stage": "draw",
+          "ms": 84.79999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "decode",
+          "ms": 159.19999998807907
+        },
+        {
+          "stage": "draw",
+          "ms": 83.20000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "decode",
+          "ms": 162.20000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 81.8999999910593
+        },
+        {
+          "stage": "draw",
+          "ms": 0.9000000059604645
+        },
+        {
+          "stage": "draw",
+          "ms": 2.6000000089406967
+        },
+        {
+          "stage": "encode",
+          "ms": 420.5
+        }
+      ],
+      "heapBefore": 3470409,
+      "heapAfter": 3517321,
+      "offscreen": true
+    },
+    {
+      "rate": 4,
+      "model": "mural",
+      "format": "a4",
+      "type": "jpeg",
+      "size": "high",
+      "fixture": "jpeg",
+      "duration": 1414.7000000029802,
+      "bytes": 1856925,
+      "mime": "image/jpeg",
+      "inputBytes": 3757806,
+      "decoded": 8,
+      "closed": 8,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 48000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [
+        82,
+        61,
+        81,
+        71,
+        100,
+        103
+      ],
+      "maxFrameGap": 83.29999999999927,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 1414.5
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 63.20000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 77.09999999403954
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "decode",
+          "ms": 62.1000000089407
+        },
+        {
+          "stage": "draw",
+          "ms": 56.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "decode",
+          "ms": 62.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 76.80000001192093
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "decode",
+          "ms": 61.79999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 66.90000000596046
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "decode",
+          "ms": 62.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 95.59999999403954
+        },
+        {
+          "stage": "draw",
+          "ms": 0.10000000894069672
+        },
+        {
+          "stage": "decode",
+          "ms": 62.5
+        },
+        {
+          "stage": "draw",
+          "ms": 99
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "decode",
+          "ms": 67.8999999910593
+        },
+        {
+          "stage": "draw",
+          "ms": 38.80000001192093
+        },
+        {
+          "stage": "draw",
+          "ms": 0.29999999701976776
+        },
+        {
+          "stage": "decode",
+          "ms": 61.20000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 38.099999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 0.7000000029802322
+        },
+        {
+          "stage": "draw",
+          "ms": 0.4000000059604645
+        },
+        {
+          "stage": "encode",
+          "ms": 259.79999999701977
+        }
+      ],
+      "heapBefore": 3489809,
+      "heapAfter": 3498074,
+      "offscreen": true
+    },
+    {
+      "rate": 4,
+      "model": "bilhetes",
+      "format": "a4",
+      "type": "pdf",
+      "encoding": "jpeg",
+      "size": "high",
+      "fixture": "jpeg",
+      "warm": true,
+      "duration": 1858.5999999940395,
+      "bytes": 1888138,
+      "mime": "application/pdf",
+      "inputBytes": 3757806,
+      "decoded": 5,
+      "closed": 5,
+      "peakBitmaps": 1,
+      "activeBitmaps": 0,
+      "maxBitmapBytes": 48000000,
+      "outputCanvasBytes": 34799360,
+      "longTasks": [
+        69,
+        373,
+        106,
+        337,
+        106,
+        99
+      ],
+      "maxFrameGap": 400,
+      "measures": [
+        {
+          "stage": "total",
+          "ms": 1858.3999999910593
+        },
+        {
+          "stage": "draw",
+          "ms": 0.4000000059604645
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 63
+        },
+        {
+          "stage": "draw",
+          "ms": 368.79999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 62.599999994039536
+        },
+        {
+          "stage": "draw",
+          "ms": 101.90000000596046
+        },
+        {
+          "stage": "draw",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "decode",
+          "ms": 63.20000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 332.70000000298023
+        },
+        {
+          "stage": "draw",
+          "ms": 0.09999999403953552
+        },
+        {
+          "stage": "draw",
+          "ms": 0
+        },
+        {
+          "stage": "decode",
+          "ms": 62.79999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 102.29999999701977
+        },
+        {
+          "stage": "draw",
+          "ms": 0.20000000298023224
+        },
+        {
+          "stage": "decode",
+          "ms": 62.6000000089407
+        },
+        {
+          "stage": "draw",
+          "ms": 90.90000000596046
+        },
+        {
+          "stage": "draw",
+          "ms": 3.7999999970197678
+        },
+        {
+          "stage": "draw",
+          "ms": 0.5
+        },
+        {
+          "stage": "encode",
+          "ms": 250.79999999701977
+        },
+        {
+          "stage": "pdf",
+          "ms": 29.099999994039536
+        },
+        {
+          "stage": "pdf-embed",
+          "ms": 0.19999998807907104
+        },
+        {
+          "stage": "pdf-save",
+          "ms": 16.799999997019768
+        }
+      ],
+      "heapBefore": 3490985,
+      "heapAfter": 10209787,
+      "offscreen": true
+    }
+  ]
+}

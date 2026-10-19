@@ -1,0 +1,10 @@
+// Test-only build entry. This module is never part of the published application.
+export { exportCollage, prepareExecution } from '../src/features/export/engine'
+export { renderExport, openOriginal } from '../src/features/export/render'
+export { loadPdf } from '../src/features/export/load'
+export { createComposition } from '../src/core/composition/state'
+export { renderScene } from '../src/core/render/canvas'
+export { resolveScene } from '../src/core/render/scene'
+export { models } from '../src/core/models/registry'
+export { formats } from '../src/core/models/formats'
+export { outputSize } from '../src/features/export/settings'

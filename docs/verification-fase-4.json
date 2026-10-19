@@ -1,0 +1,29 @@
+{
+  "phase": 4,
+  "date": "2026-10-18",
+  "unit": {
+    "files": 14,
+    "passed": 136
+  },
+  "productionE2E": {
+    "passed": 135,
+    "skipped": 3,
+    "engines": [
+      "chromium",
+      "firefox",
+      "webkit"
+    ]
+  },
+  "devE2E": {
+    "passed": 9
+  },
+  "hmr": {
+    "engines": 3,
+    "canvasPreserved": true
+  },
+  "exportFidelityCases": 108,
+  "additionalJpegPdfFiles": 36,
+  "pocReferences": 45,
+  "baselinesRegenerated": false,
+  "deploy": false
+}

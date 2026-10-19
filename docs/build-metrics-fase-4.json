@@ -1,0 +1,36 @@
+{
+  "phase": 4,
+  "initialJavaScriptGzipBytes": 120361,
+  "javascriptGzipBytes": 484488,
+  "cssGzipBytes": 7559,
+  "demoBytes": 282877,
+  "referenceBytes": 0,
+  "files": [
+    {
+      "file": "engine-CP40BWa6.js",
+      "bytes": 5236,
+      "gzipBytes": 2255
+    },
+    {
+      "file": "export.worker-CZI1GEL4.js",
+      "bytes": 464280,
+      "gzipBytes": 186607
+    },
+    {
+      "file": "index-B2eLaNAq.js",
+      "bytes": 397895,
+      "gzipBytes": 120361
+    },
+    {
+      "file": "index-DujS7HES.css",
+      "bytes": 30450,
+      "gzipBytes": 7559
+    },
+    {
+      "file": "pdf-Oo1ZCfrf.js",
+      "bytes": 420543,
+      "gzipBytes": 175265
+    }
+  ],
+  "note": "Metas orientam medição. Referências originais preservadas em public/references para comparação; sua cópia não integra o dist. Worker e PDF são carregados sob demanda; javascriptGzipBytes soma todos os caminhos, inclusive fallback."
+}

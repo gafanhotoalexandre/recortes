@@ -1,0 +1,459 @@
+{
+  "browser": "156.0.8078.4",
+  "reference": "45 WebP originais da Fase 1; nunca regenerados nesta comparação",
+  "thresholdsAreInitialReferences": true,
+  "results": [
+    {
+      "name": "lado-portrait",
+      "width": 800,
+      "height": 1000,
+      "meanError": 0.8572241666666667,
+      "changedRatio": 0.0015075,
+      "initialTargetsMet": true,
+      "renderMs": 7.5
+    },
+    {
+      "name": "lado-square",
+      "width": 1000,
+      "height": 1000,
+      "meanError": 0.8451773333333333,
+      "changedRatio": 0.001265,
+      "initialTargetsMet": true,
+      "renderMs": 2.4000000059604645
+    },
+    {
+      "name": "lado-landscape",
+      "width": 1000,
+      "height": 667,
+      "meanError": 0.9882068965517241,
+      "changedRatio": 0.001719640179910045,
+      "initialTargetsMet": true,
+      "renderMs": 1.9000000059604645
+    },
+    {
+      "name": "lado-a4",
+      "width": 707,
+      "height": 1000,
+      "meanError": 0.8726746817538896,
+      "changedRatio": 0.0016647807637906649,
+      "initialTargetsMet": true,
+      "renderMs": 2.800000011920929
+    },
+    {
+      "name": "lado-thumb",
+      "width": 160,
+      "height": 200,
+      "meanError": 1.584625,
+      "changedRatio": 0.00059375,
+      "initialTargetsMet": true,
+      "renderMs": 0.10000000894069672
+    },
+    {
+      "name": "quatro-portrait",
+      "width": 800,
+      "height": 1000,
+      "meanError": 0.9409641666666667,
+      "changedRatio": 0.001515,
+      "initialTargetsMet": true,
+      "renderMs": 1.0999999940395355
+    },
+    {
+      "name": "quatro-square",
+      "width": 1000,
+      "height": 1000,
+      "meanError": 0.8953973333333334,
+      "changedRatio": 0.001271,
+      "initialTargetsMet": true,
+      "renderMs": 1.3999999910593033
+    },
+    {
+      "name": "quatro-landscape",
+      "width": 1000,
+      "height": 667,
+      "meanError": 0.9466501749125438,
+      "changedRatio": 0.0015517241379310344,
+      "initialTargetsMet": true,
+      "renderMs": 0.8999999910593033
+    },
+    {
+      "name": "quatro-a4",
+      "width": 707,
+      "height": 1000,
+      "meanError": 0.9862531824611033,
+      "changedRatio": 0.001676096181046676,
+      "initialTargetsMet": true,
+      "renderMs": 1.1000000089406967
+    },
+    {
+      "name": "quatro-thumb",
+      "width": 160,
+      "height": 200,
+      "meanError": 1.6766666666666667,
+      "changedRatio": 0.0009375,
+      "initialTargetsMet": true,
+      "renderMs": 0.20000000298023224
+    },
+    {
+      "name": "janela-portrait",
+      "width": 800,
+      "height": 1000,
+      "meanError": 0.91226375,
+      "changedRatio": 0.0015075,
+      "initialTargetsMet": true,
+      "renderMs": 1
+    },
+    {
+      "name": "janela-square",
+      "width": 1000,
+      "height": 1000,
+      "meanError": 0.9070393333333333,
+      "changedRatio": 0.001265,
+      "initialTargetsMet": true,
+      "renderMs": 1.5999999940395355
+    },
+    {
+      "name": "janela-landscape",
+      "width": 1000,
+      "height": 667,
+      "meanError": 0.9664022988505747,
+      "changedRatio": 0.0015802098950524737,
+      "initialTargetsMet": true,
+      "renderMs": 1.2000000029802322
+    },
+    {
+      "name": "janela-a4",
+      "width": 707,
+      "height": 1000,
+      "meanError": 0.8948595002357379,
+      "changedRatio": 0.0016407355021216406,
+      "initialTargetsMet": true,
+      "renderMs": 1
+    },
+    {
+      "name": "janela-thumb",
+      "width": 160,
+      "height": 200,
+      "meanError": 1.64634375,
+      "changedRatio": 0.0005625,
+      "initialTargetsMet": true,
+      "renderMs": 0.20000000298023224
+    },
+    {
+      "name": "postal-portrait",
+      "width": 800,
+      "height": 1000,
+      "meanError": 0.8824029166666667,
+      "changedRatio": 0.00149,
+      "initialTargetsMet": true,
+      "renderMs": 1
+    },
+    {
+      "name": "postal-square",
+      "width": 1000,
+      "height": 1000,
+      "meanError": 0.835996,
+      "changedRatio": 0.001278,
+      "initialTargetsMet": true,
+      "renderMs": 1.300000011920929
+    },
+    {
+      "name": "postal-landscape",
+      "width": 1000,
+      "height": 667,
+      "meanError": 0.933832083958021,
+      "changedRatio": 0.0015637181409295352,
+      "initialTargetsMet": true,
+      "renderMs": 1
+    },
+    {
+      "name": "postal-a4",
+      "width": 707,
+      "height": 1000,
+      "meanError": 0.9028297972654409,
+      "changedRatio": 0.0016265912305516265,
+      "initialTargetsMet": true,
+      "renderMs": 1
+    },
+    {
+      "name": "postal-thumb",
+      "width": 160,
+      "height": 200,
+      "meanError": 1.6478333333333333,
+      "changedRatio": 0.00075,
+      "initialTargetsMet": true,
+      "renderMs": 0.09999999403953552
+    },
+    {
+      "name": "mural-portrait",
+      "width": 800,
+      "height": 1000,
+      "meanError": 0.992185,
+      "changedRatio": 0.0019475,
+      "initialTargetsMet": true,
+      "renderMs": 1.3999999910593033
+    },
+    {
+      "name": "mural-square",
+      "width": 1000,
+      "height": 1000,
+      "meanError": 0.962811,
+      "changedRatio": 0.001582,
+      "initialTargetsMet": true,
+      "renderMs": 1.2999999970197678
+    },
+    {
+      "name": "mural-landscape",
+      "width": 1000,
+      "height": 667,
+      "meanError": 0.9737631184407796,
+      "changedRatio": 0.0021919040479760118,
+      "initialTargetsMet": true,
+      "renderMs": 1.1000000089406967
+    },
+    {
+      "name": "mural-a4",
+      "width": 707,
+      "height": 1000,
+      "meanError": 0.9951744460160302,
+      "changedRatio": 0.0021584158415841586,
+      "initialTargetsMet": true,
+      "renderMs": 1.2000000029802322
+    },
+    {
+      "name": "mural-thumb",
+      "width": 160,
+      "height": 200,
+      "meanError": 1.5994270833333333,
+      "changedRatio": 0.0035,
+      "initialTargetsMet": true,
+      "renderMs": 0.09999999403953552
+    },
+    {
+      "name": "retalhos-portrait",
+      "width": 800,
+      "height": 1000,
+      "meanError": 0.9762383333333333,
+      "changedRatio": 0.001525,
+      "initialTargetsMet": true,
+      "renderMs": 1.2999999970197678
+    },
+    {
+      "name": "retalhos-square",
+      "width": 1000,
+      "height": 1000,
+      "meanError": 0.931058,
+      "changedRatio": 0.001296,
+      "initialTargetsMet": true,
+      "renderMs": 1.7000000029802322
+    },
+    {
+      "name": "retalhos-landscape",
+      "width": 1000,
+      "height": 667,
+      "meanError": 0.9517526236881559,
+      "changedRatio": 0.0015937031484257872,
+      "initialTargetsMet": true,
+      "renderMs": 1.1000000089406967
+    },
+    {
+      "name": "retalhos-a4",
+      "width": 707,
+      "height": 1000,
+      "meanError": 0.9944629891560585,
+      "changedRatio": 0.0016577086280056576,
+      "initialTargetsMet": true,
+      "renderMs": 1.1000000089406967
+    },
+    {
+      "name": "retalhos-thumb",
+      "width": 160,
+      "height": 200,
+      "meanError": 1.6430520833333333,
+      "changedRatio": 0.0018125,
+      "initialTargetsMet": true,
+      "renderMs": 0.30000001192092896
+    },
+    {
+      "name": "fotogramas-portrait",
+      "width": 800,
+      "height": 1000,
+      "meanError": 0.83165125,
+      "changedRatio": 0.001935,
+      "initialTargetsMet": true,
+      "renderMs": 2.5
+    },
+    {
+      "name": "fotogramas-square",
+      "width": 1000,
+      "height": 1000,
+      "meanError": 0.8802596666666667,
+      "changedRatio": 0.002018,
+      "initialTargetsMet": true,
+      "renderMs": 2.5
+    },
+    {
+      "name": "fotogramas-landscape",
+      "width": 1000,
+      "height": 667,
+      "meanError": 1.0192748625687156,
+      "changedRatio": 0.0025817091454272863,
+      "initialTargetsMet": true,
+      "renderMs": 1.0999999940395355
+    },
+    {
+      "name": "fotogramas-a4",
+      "width": 707,
+      "height": 1000,
+      "meanError": 0.8431192833569071,
+      "changedRatio": 0.0019943422913719943,
+      "initialTargetsMet": true,
+      "renderMs": 2.3999999910593033
+    },
+    {
+      "name": "fotogramas-thumb",
+      "width": 160,
+      "height": 200,
+      "meanError": 1.4271145833333334,
+      "changedRatio": 0.0018125,
+      "initialTargetsMet": true,
+      "renderMs": 1.7999999970197678
+    },
+    {
+      "name": "bilhetes-portrait",
+      "width": 800,
+      "height": 1000,
+      "meanError": 0.9119083333333333,
+      "changedRatio": 0.00157125,
+      "initialTargetsMet": true,
+      "renderMs": 1.2999999970197678
+    },
+    {
+      "name": "bilhetes-square",
+      "width": 1000,
+      "height": 1000,
+      "meanError": 0.905713,
+      "changedRatio": 0.001325,
+      "initialTargetsMet": true,
+      "renderMs": 1.3999999910593033
+    },
+    {
+      "name": "bilhetes-landscape",
+      "width": 1000,
+      "height": 667,
+      "meanError": 0.944255872063968,
+      "changedRatio": 0.0016146926536731634,
+      "initialTargetsMet": true,
+      "renderMs": 1
+    },
+    {
+      "name": "bilhetes-a4",
+      "width": 707,
+      "height": 1000,
+      "meanError": 0.9015115511551155,
+      "changedRatio": 0.0017086280056577087,
+      "initialTargetsMet": true,
+      "renderMs": 1.0999999940395355
+    },
+    {
+      "name": "bilhetes-thumb",
+      "width": 160,
+      "height": 200,
+      "meanError": 1.48590625,
+      "changedRatio": 0.001,
+      "initialTargetsMet": true,
+      "renderMs": 0.20000000298023224
+    },
+    {
+      "name": "arcos-portrait",
+      "width": 800,
+      "height": 1000,
+      "meanError": 0.7719945833333334,
+      "changedRatio": 0.00148,
+      "initialTargetsMet": true,
+      "renderMs": 1.300000011920929
+    },
+    {
+      "name": "arcos-square",
+      "width": 1000,
+      "height": 1000,
+      "meanError": 0.762331,
+      "changedRatio": 0.001265,
+      "initialTargetsMet": true,
+      "renderMs": 1.5
+    },
+    {
+      "name": "arcos-landscape",
+      "width": 1000,
+      "height": 667,
+      "meanError": 0.8619635182408796,
+      "changedRatio": 0.00156071964017991,
+      "initialTargetsMet": true,
+      "renderMs": 1.2999999970197678
+    },
+    {
+      "name": "arcos-a4",
+      "width": 707,
+      "height": 1000,
+      "meanError": 0.7748778877887789,
+      "changedRatio": 0.0016987270155586988,
+      "initialTargetsMet": true,
+      "renderMs": 1
+    },
+    {
+      "name": "arcos-thumb",
+      "width": 160,
+      "height": 200,
+      "meanError": 1.2742083333333334,
+      "changedRatio": 0.0005625,
+      "initialTargetsMet": true,
+      "renderMs": 0.19999998807907104
+    }
+  ],
+  "highResolution": [
+    {
+      "duration": 18.799999997019768,
+      "modelId": "fotogramas",
+      "formatId": "a4",
+      "nodeCount": 117,
+      "width": 2480,
+      "height": 3508,
+      "paperPixel": [
+        255,
+        250,
+        244,
+        255
+      ],
+      "rgbaSurfaceBytes": 34799360
+    },
+    {
+      "duration": 10.400000005960464,
+      "modelId": "bilhetes",
+      "formatId": "portrait",
+      "nodeCount": 20,
+      "width": 2400,
+      "height": 3000,
+      "paperPixel": [
+        255,
+        250,
+        244,
+        255
+      ],
+      "rgbaSurfaceBytes": 28800000
+    },
+    {
+      "duration": 8.800000011920929,
+      "modelId": "arcos",
+      "formatId": "landscape",
+      "nodeCount": 8,
+      "width": 3000,
+      "height": 2000,
+      "paperPixel": [
+        255,
+        250,
+        244,
+        255
+      ],
+      "rgbaSurfaceBytes": 24000000
+    }
+  ]
+}

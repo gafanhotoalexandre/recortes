@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-19",
+  "typecheck": "passed",
+  "lint": "passed",
+  "productionBuild": "passed",
+  "unit": {
+    "passed": 136,
+    "failed": 0,
+    "files": 14
+  },
+  "e2e": {
+    "startTime": "2026-10-19T16:23:21.752Z",
+    "duration": 114721.041,
+    "expected": 135,
+    "skipped": 3,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "visualComparisons": {
+    "total": 45,
+    "passed": 45,
+    "maxMeanError": 1.6766666666666667,
+    "maxChangedRatio": 0.0025817091454272863
+  },
+  "muralExport": {
+    "name": "recortes-um-dia-desses.png",
+    "width": 1440,
+    "height": 1800,
+    "responses": [
+      {
+        "status": 200,
+        "bytes": 37621,
+        "sha256": "598f61e370a74ea058b4977e7b91482609387b9dbe35df6655d55967227a97b0"
+      },
+      {
+        "status": 200,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "retiredAssetGuard": "approved image accepted; actual retired JPEG rejected; current image restored and revalidated",
+  "gitInitialized": false,
+  "deploy": false,
+  "localPreviewClosed": true,
+  "port4180Released": true
+}

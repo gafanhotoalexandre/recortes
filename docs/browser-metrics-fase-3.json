@@ -1,0 +1,92 @@
+{
+  "environment": "Chromium 156.0.8078.4, headless, Windows, viewport 1440x1000, localhost, sem throttling",
+  "description": "5 contextos novos; 20 trocas de formato. Tempos incluem resolução/desenho Canvas e duas oportunidades de pintura. Memória estima apenas pixels RGBA dos canvases e buffers auxiliares, sem decodificadores, GPU ou heap. Não mede arraste, aparelho físico ou rede real.",
+  "formatChangeP95Ms": 49,
+  "runs": [
+    {
+      "firstContentfulPaintMs": 156,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        45.20000000298023,
+        44.900000005960464,
+        48.8999999910593,
+        48.79999999701977
+      ],
+      "rendering": {
+        "resolveMs": 0,
+        "renderAndCopyMs": 1.5,
+        "bitmapWidth": 443,
+        "bitmapHeight": 554,
+        "approximateRgbaCanvasBytes": 4267376
+      }
+    },
+    {
+      "firstContentfulPaintMs": 128,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        45.400000005960464,
+        46.5,
+        48.3999999910593,
+        48.400000005960464
+      ],
+      "rendering": {
+        "resolveMs": 0,
+        "renderAndCopyMs": 1.6000000089406967,
+        "bitmapWidth": 443,
+        "bitmapHeight": 554,
+        "approximateRgbaCanvasBytes": 4267376
+      }
+    },
+    {
+      "firstContentfulPaintMs": 136,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        44.400000005960464,
+        42.79999999701977,
+        49.099999994039536,
+        48.30000001192093
+      ],
+      "rendering": {
+        "resolveMs": 0,
+        "renderAndCopyMs": 1.5,
+        "bitmapWidth": 443,
+        "bitmapHeight": 554,
+        "approximateRgbaCanvasBytes": 4267376
+      }
+    },
+    {
+      "firstContentfulPaintMs": 128,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        47.3999999910593,
+        44.900000005960464,
+        48.1000000089407,
+        49
+      ],
+      "rendering": {
+        "resolveMs": 0,
+        "renderAndCopyMs": 1.4000000059604645,
+        "bitmapWidth": 443,
+        "bitmapHeight": 554,
+        "approximateRgbaCanvasBytes": 4267376
+      }
+    },
+    {
+      "firstContentfulPaintMs": 128,
+      "cumulativeLayoutShift": 0,
+      "formatChangeMs": [
+        46.900000005960464,
+        46,
+        48.20000000298023,
+        47.6000000089407
+      ],
+      "rendering": {
+        "resolveMs": 0.10000000894069672,
+        "renderAndCopyMs": 1.5999999940395355,
+        "bitmapWidth": 443,
+        "bitmapHeight": 554,
+        "approximateRgbaCanvasBytes": 4267376
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-19",
+  "files": [
+    {
+      "file": "dist/assets/engine-qPxPry76.js",
+      "status": 200,
+      "bytes": 5236
+    },
+    {
+      "file": "dist/assets/export.worker-CZI1GEL4.js",
+      "status": 200,
+      "bytes": 464280
+    },
+    {
+      "file": "dist/assets/index-DmfubiD4.css",
+      "status": 200,
+      "bytes": 30373
+    },
+    {
+      "file": "dist/assets/index-rClraz6_.js",
+      "status": 200,
+      "bytes": 397822
+    },
+    {
+      "file": "dist/assets/pdf-iSDSacBy.js",
+      "status": 200,
+      "bytes": 420543
+    },
+    {
+      "file": "dist/demos/photo-1.jpg",
+      "status": 200,
+      "bytes": 31061
+    },
+    {
+      "file": "dist/demos/photo-2.jpg",
+      "status": 200,
+      "bytes": 34440
+    },
+    {
+      "file": "dist/demos/photo-3.jpg",
+      "status": 200,
+      "bytes": 17799
+    },
+    {
+      "file": "dist/demos/photo-4.jpg",
+      "status": 200,
+      "bytes": 37772
+    },
+    {
+      "file": "dist/demos/photo-5.jpg",
+      "status": 200,
+      "bytes": 33600
+    },
+    {
+      "file": "dist/demos/photo-6.jpg",
+      "status": 200,
+      "bytes": 74824
+    },
+    {
+      "file": "dist/demos/photo-7.jpg",
+      "status": 200,
+      "bytes": 42333
+    },
+    {
+      "file": "dist/demos/photo-8.jpg",
+      "status": 200,
+      "bytes": 11048
+    },
+    {
+      "file": "dist/favicon.svg",
+      "status": 200,
+      "bytes": 290
+    },
+    {
+      "file": "dist/index.html",
+      "status": 200,
+      "bytes": 748
+    },
+    {
+      "file": "dist/third-party-licenses.txt",
+      "status": 200,
+      "bytes": 110285
+    }
+  ],
+  "htmlLocalEntrypoints": [
+    "/favicon.svg",
+    "/assets/index-rClraz6_.js",
+    "/assets/index-DmfubiD4.css"
+  ],
+  "cspMatches": true,
+  "noticesBytes": 110285,
+  "referencesInDist": false,
+  "sourceReferences": 45,
+  "productionDependencyEntries": 88
+}

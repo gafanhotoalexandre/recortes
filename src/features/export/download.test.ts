@@ -1,0 +1,30 @@
+import { afterEach, expect, it, vi } from 'vitest'
+import { releaseDownload, retainDownload, scheduleDownloadRelease } from './download'
+
+afterEach(() => { releaseDownload(); vi.useRealTimers(); vi.unstubAllGlobals() })
+it('mantém somente um resultado e permite ao navegador consumi-lo após fechar o dialog', () => {
+  vi.useFakeTimers()
+  const revoke = vi.fn(), create = vi.fn().mockReturnValueOnce('blob:first').mockReturnValueOnce('blob:second')
+  vi.stubGlobal('URL', { createObjectURL: create, revokeObjectURL: revoke })
+  retainDownload(new Blob())
+  scheduleDownloadRelease()
+  vi.advanceTimersByTime(59_000)
+  expect(revoke).not.toHaveBeenCalled()
+  retainDownload(new Blob())
+  expect(revoke).toHaveBeenCalledExactlyOnceWith('blob:first')
+  vi.advanceTimersByTime(1_000)
+  expect(revoke).not.toHaveBeenCalledWith('blob:second')
+  scheduleDownloadRelease()
+  vi.advanceTimersByTime(60_000)
+  expect(revoke).toHaveBeenCalledWith('blob:second')
+})
+it('reinício libera imediatamente o resultado e seu temporizador', () => {
+  vi.useFakeTimers()
+  const revoke = vi.fn()
+  vi.stubGlobal('URL', { createObjectURL: () => 'blob:result', revokeObjectURL: revoke })
+  retainDownload(new Blob())
+  scheduleDownloadRelease()
+  releaseDownload()
+  vi.advanceTimersByTime(60_000)
+  expect(revoke).toHaveBeenCalledExactlyOnceWith('blob:result')
+})

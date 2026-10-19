@@ -1,0 +1,71 @@
+{
+  "method": "Fresh Chromium context per encoding, precise-memory-info, GC before the operation only. Samples at embedding/save boundaries; observed JS heap, not total RAM, native buffers or exact peak. Input is output/exports/recortes-bilhetes-a4.png, also encoded to JPEG .96 before timing. Generate it with capture-release.mjs first.",
+  "results": [
+    {
+      "encoding": "jpeg",
+      "inputBytes": 964503,
+      "pdfBytes": 965464,
+      "duration": 10.900000005960464,
+      "samples": [
+        {
+          "stage": "before",
+          "bytes": 2617254
+        },
+        {
+          "stage": "before-embedJpg",
+          "bytes": 3816081
+        },
+        {
+          "stage": "after-embedJpg",
+          "bytes": 3826705
+        },
+        {
+          "stage": "before-save",
+          "bytes": 3762342
+        },
+        {
+          "stage": "after-save",
+          "bytes": 5849945
+        },
+        {
+          "stage": "after",
+          "bytes": 6815892
+        }
+      ],
+      "afterGcBytes": 2909758
+    },
+    {
+      "encoding": "png",
+      "inputBytes": 4844920,
+      "pdfBytes": 5723554,
+      "duration": 846.5,
+      "samples": [
+        {
+          "stage": "before",
+          "bytes": 2535960
+        },
+        {
+          "stage": "before-embedPng",
+          "bytes": 8037380
+        },
+        {
+          "stage": "after-embedPng",
+          "bytes": 112078552
+        },
+        {
+          "stage": "before-save",
+          "bytes": 112183221
+        },
+        {
+          "stage": "after-save",
+          "bytes": 131885550
+        },
+        {
+          "stage": "after",
+          "bytes": 137145447
+        }
+      ],
+      "afterGcBytes": 2949116
+    }
+  ]
+}

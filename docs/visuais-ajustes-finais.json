@@ -1,0 +1,251 @@
+{
+  "date": "2026-10-19",
+  "method": "Somente recortes dos screenshots reais nas caixas do canvas Mural e da oitava imagem da biblioteca foram aplicados \u00e0s baselines preservadas. Nenhum pixel fora dessas caixas foi alterado; capturas sem diferen\u00e7as mant\u00eam os bytes originais. Isso substitui a imagem mesmo quando a diferen\u00e7a fica abaixo da toler\u00e2ncia do teste.",
+  "changedCount": 9,
+  "unchangedCount": 9,
+  "results": [
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-1440-chromium-win32.png",
+      "changed": true,
+      "actualScreenshotRegions": [
+        [
+          59,
+          624,
+          133,
+          717
+        ],
+        [
+          858,
+          973,
+          926,
+          1054
+        ]
+      ],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "857bbfd041e70eaf636e32288dd41fd17aca5631b81b3467af0d128befb6e00a",
+      "afterHash": "5f17e537b54a2938b4b8e5f7e8d9eaa43614f54125e8241f4d99a64b39141944"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-860-chromium-win32.png",
+      "changed": true,
+      "actualScreenshotRegions": [
+        [
+          43,
+          650,
+          111,
+          735
+        ],
+        [
+          816,
+          993,
+          860,
+          1074
+        ]
+      ],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "b49ad4f2ae3c91b121abb30143e0a7c4f1df4541875367f1c5c01d6b5d6c5551",
+      "afterHash": "060e57a5d7e5795e1209d9aa04dd120a3a105e824f223c56ba2264f8cb5b2db9"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-390-chromium-win32.png",
+      "changed": false,
+      "actualScreenshotRegions": [],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "97836aea50ae57c8c8ecbca41593989f5271655dc32b590f085fe4fa443766c9",
+      "afterHash": "97836aea50ae57c8c8ecbca41593989f5271655dc32b590f085fe4fa443766c9"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-320-chromium-win32.png",
+      "changed": false,
+      "actualScreenshotRegions": [],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "9349727750cadf02df01292d359cf9e9f4637ee8d77af58a332c67b739f9217c",
+      "afterHash": "9349727750cadf02df01292d359cf9e9f4637ee8d77af58a332c67b739f9217c"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-mobile-modelos-chromium-win32.png",
+      "changed": true,
+      "actualScreenshotRegions": [
+        [
+          156,
+          509,
+          234,
+          607
+        ]
+      ],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "4e6dc3e05ddea6f8ef5b436e2102d4f3c10b18d35555bcd535c8b408d66909ea",
+      "afterHash": "01d7484e530cfb96adf908d106f084373300c5a43a5ed70d8b30a81487e7fa6e"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-mobile-ajustes-chromium-win32.png",
+      "changed": false,
+      "actualScreenshotRegions": [],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "3b854add12a89995c3417f3efa164fe8e8a079934f968b355f1109b1b4b7face",
+      "afterHash": "3b854add12a89995c3417f3efa164fe8e8a079934f968b355f1109b1b4b7face"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-1440-firefox-win32.png",
+      "changed": true,
+      "actualScreenshotRegions": [
+        [
+          59,
+          624,
+          133,
+          717
+        ],
+        [
+          858,
+          973,
+          926,
+          1054
+        ]
+      ],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "bba55d3e37d4984b755b40f094204e8d7445e5537528f25194858a52b3a370bd",
+      "afterHash": "cf8c094e61c06eca5725b6c46d92743480032fd96b290b42e2411b9fd68e358d"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-860-firefox-win32.png",
+      "changed": true,
+      "actualScreenshotRegions": [
+        [
+          43,
+          650,
+          111,
+          735
+        ],
+        [
+          816,
+          993,
+          860,
+          1074
+        ]
+      ],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "561a7c80653f03caf9a18c4eb1487bbf90db67fefa5ff9ba376a0bb3e7d9b979",
+      "afterHash": "c87379f7b86e631dec6c36f0488407bfb8e0a9cea85c14c76c49b24eddb0d3d2"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-390-firefox-win32.png",
+      "changed": false,
+      "actualScreenshotRegions": [],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "2c59b9ac654102d6a4d05ae7dc6236a6a7bcb3b01700d59d0c4c6a1dea79e94d",
+      "afterHash": "2c59b9ac654102d6a4d05ae7dc6236a6a7bcb3b01700d59d0c4c6a1dea79e94d"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-320-firefox-win32.png",
+      "changed": false,
+      "actualScreenshotRegions": [],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "4e7ec605346402173f09833e390697ab7391acf45137cd9fac44dd3f349abb7f",
+      "afterHash": "4e7ec605346402173f09833e390697ab7391acf45137cd9fac44dd3f349abb7f"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-mobile-modelos-firefox-win32.png",
+      "changed": true,
+      "actualScreenshotRegions": [
+        [
+          156,
+          509,
+          234,
+          607
+        ]
+      ],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "79894521320112208eeb08c83444e914787c5330bfae80dcd3b9d937fce685c9",
+      "afterHash": "e0595c19515403901f9cb5787ed048dbebad7d6cd50dfd58e0298dc60141c151"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-mobile-ajustes-firefox-win32.png",
+      "changed": false,
+      "actualScreenshotRegions": [],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "bc17fd820c1225e35110d805f55471a6b36acd7ddb4f67fbbe83c0bc228003e7",
+      "afterHash": "bc17fd820c1225e35110d805f55471a6b36acd7ddb4f67fbbe83c0bc228003e7"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-1440-webkit-win32.png",
+      "changed": true,
+      "actualScreenshotRegions": [
+        [
+          59,
+          624,
+          133,
+          717
+        ],
+        [
+          858,
+          978,
+          926,
+          1059
+        ]
+      ],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "7e1d930630257fc1f3163e5cb5d8953d43523a49638b89808468261c23c641ea",
+      "afterHash": "f1efe95c3a8470e2a5888f9577d0283a69c5da3dc698038fd566ed5827c4e33d"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-860-webkit-win32.png",
+      "changed": true,
+      "actualScreenshotRegions": [
+        [
+          43,
+          650,
+          111,
+          735
+        ],
+        [
+          816,
+          998,
+          860,
+          1079
+        ]
+      ],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "e4d11cb4af91d9802d7fb21159162b25e589b5beafadb141e66b6b3e9786f346",
+      "afterHash": "f225f01068cd511680807420067c7f934a6729015c28c5646283b071cded98a4"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-390-webkit-win32.png",
+      "changed": false,
+      "actualScreenshotRegions": [],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "32f83d013e0297a8508223580853f07ebc2852297b76db583e6a8411afe3d572",
+      "afterHash": "32f83d013e0297a8508223580853f07ebc2852297b76db583e6a8411afe3d572"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-bancada-320-webkit-win32.png",
+      "changed": false,
+      "actualScreenshotRegions": [],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "5ec36598b0794216a66fa2985017bb20fb954a7daa2738320679c5eff43c66da",
+      "afterHash": "5ec36598b0794216a66fa2985017bb20fb954a7daa2738320679c5eff43c66da"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-mobile-modelos-webkit-win32.png",
+      "changed": true,
+      "actualScreenshotRegions": [
+        [
+          156,
+          509,
+          234,
+          607
+        ]
+      ],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "30a1e1858788a58c3bb8d08b4d677451eeff8c94187a7cdad57206331b466111",
+      "afterHash": "7f5870660d46434fe382d07b1d3c189ca5fb11a782177cda4aa8c5dd25e99078"
+    },
+    {
+      "file": "tests/e2e/workbench.spec.ts-snapshots/fase-3-mobile-ajustes-webkit-win32.png",
+      "changed": false,
+      "actualScreenshotRegions": [],
+      "differenceOutsideAssetRegions": null,
+      "beforeHash": "0c63cf79e54dc8abaca6345c5965d739b1c8a04b2b7d581ed8348d2497e341fb",
+      "afterHash": "0c63cf79e54dc8abaca6345c5965d739b1c8a04b2b7d581ed8348d2497e341fb"
+    }
+  ]
+}
