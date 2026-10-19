@@ -1,70 +1,82 @@
 # recortes.
 
-Um jeito de montar colagens com suas fotos, direto no navegador. Escolha um modelo, encontre um enquadramento e ajuste o papel, as bordas e o texto. Quando estiver do seu jeito, baixe em PNG, JPEG ou PDF.
+Um jeito de montar colagens com suas fotos, direto no navegador. Escolha um modelo, ajuste o enquadramento, personalize os detalhes e baixe o resultado em PNG, JPEG ou PDF.
 
-A proposta é conseguir uma colagem agradável sem precisar aprender um editor inteiro. Os modelos dão um ponto de partida; os ajustes ficam à mão para acertar os detalhes.
+A ideia é simples: ter boas composições como ponto de partida, sem precisar montar tudo do zero ou aprender a usar um editor cheio de ferramentas.
 
-![Bancada do recortes com o modelo Arcos, biblioteca de fotos e ajustes de papel](docs/images/recortes-desktop.png)
+![Interface do recortes. com o modelo Arcos, biblioteca de fotografias e ajustes](docs/images/recortes-desktop.png)
 
-Captura real da aplicação com três imagens CC0: café de Rachel Michetti, Chelsea de Stefan van der Walt e grama de linolafett, distribuídas pelo scikit-image. [Fontes e condições das imagens](docs/fotografias-demonstrativas.md).
+*Captura da aplicação com fotografias de demonstração. [Créditos e fontes das imagens](docs/fotografias-demonstrativas.md).*
 
 ## Na bancada
 
-- Nove modelos em quatro formatos: retrato, quadrado, paisagem e A4.
-- Biblioteca com até 12 fotos JPEG, PNG ou WebP. As miniaturas dos modelos também mostram suas fotos.
-- Enquadramento por arraste e zoom. No celular, o modo **Ajustar enquadramento** deixa o gesto separado da rolagem da página.
-- Papel, margens, cantos, bordas, legenda, data e fontes, conforme o modelo.
-- Desfazer e refazer até 40 alterações. Cada gesto de enquadramento conta como uma alteração.
-- Exportação em alta resolução ou em tamanho para compartilhar. PDF A4 tem uma página de 210 × 297 mm.
+- **Nove modelos de colagem**, dos mais discretos aos mais elaborados.
+- **Quatro formatos:** retrato, quadrado, paisagem e A4.
+- **Até 12 fotografias**, em JPEG, PNG ou WebP.
+- **Enquadramento e zoom**, com ajustes por mouse, toque ou controles.
+- **Personalização** de papel, margens, cantos, bordas, legendas e datas, conforme o modelo.
+- **Desfazer e refazer** alterações, sem precisar recomeçar a composição.
+- **Exportação em PNG, JPEG ou PDF**, com opções de alta resolução e tamanho para compartilhamento.
 
-As fotos de exemplo ajudam a explorar a aplicação. Ao importar suas fotos pela primeira vez, todos os exemplos e seus enquadramentos são substituídos. Você pode selecionar uma moldura e aplicar uma foto pela biblioteca; o destino aparece numerado.
+As miniaturas dos modelos acompanham as fotografias escolhidas, então dá para experimentar diferentes composições antes de decidir qual usar.
+
+A aplicação começa com fotos demonstrativas. Ao adicionar suas próprias imagens, os exemplos são substituídos.
 
 ## Executar localmente
 
-Use Node.js 24 e npm. Dentro da pasta da aplicação — `recortes`, se você estiver na pasta que também contém as POCs:
+Você precisa do **Node.js 24** e do npm.
 
-```sh
+```bash
 npm ci
 npm run dev
 ```
 
-Abra [localhost:5173](http://127.0.0.1:5173/). Para conferir o build de produção:
+A aplicação ficará disponível em [http://localhost:5173](http://localhost:5173).
 
-```sh
+Para testar o build de produção:
+
+```bash
 npm run build
 npm run preview
 ```
 
-O preview fica em [localhost:4173](http://127.0.0.1:4173/). Não é necessário configurar `.env`, serviço de nuvem ou chave de API. Os arquivos precisam ser servidos por HTTP; abrir o HTML do build diretamente não funciona.
+Não é necessário configurar variáveis de ambiente, banco de dados ou serviços externos.
 
 ## Por dentro
 
-A interface usa **React 19, TypeScript, Vite, Tailwind CSS 4, Radix/shadcn e Lucide**. O PDF é gerado com **pdf-lib**. Vitest, Testing Library e Playwright cuidam dos testes.
+O recortes. foi desenvolvido com **React 19, TypeScript, Vite e Tailwind CSS 4**. A interface também utiliza componentes baseados em Radix/shadcn e ícones do Lucide.
 
-Os modelos ficam em um registro único: cada definição descreve a disposição das molduras, os ajustes disponíveis e os elementos gráficos. A partir disso, o motor monta uma cena e a desenha no Canvas. Bancada, miniaturas e exportação usam as mesmas regras.
+As colagens são desenhadas com a **Canvas 2D API**. Cada modelo possui uma definição própria de geometria, molduras e elementos gráficos. Um motor compartilhado utiliza essas definições para gerar a prévia, as miniaturas e os arquivos exportados.
 
-Na edição, versões menores das fotos mantêm a bancada leve. A exportação usa os originais: abre, desenha e libera cada imagem na ordem da cena, preservando as sobreposições.
+Durante a edição, o navegador trabalha com versões reduzidas das fotografias para manter a interface responsiva. Na exportação, utiliza os arquivos originais, processando e liberando as imagens conforme necessário.
 
-Quando o navegador oferece os recursos necessários, a exportação roda em um Worker para deixar a interface disponível. O renderizador é o mesmo no Worker e no caminho alternativo da thread principal. O PDF recebe uma imagem JPEG da colagem inteira, incluindo os textos.
+O processamento mais pesado pode acontecer em um **Web Worker**, evitando bloquear a interface. Quando os recursos necessários não estão disponíveis, a aplicação utiliza o mesmo motor na thread principal.
 
-Os detalhes, comandos de teste e medições estão em [Desenvolvimento](docs/desenvolvimento.md) e nos [resultados da Fase 4](docs/fase-4.md).
+Os PDFs são gerados com **pdf-lib**. Para os testes, utilizo **Vitest, Testing Library e Playwright**.
 
-## Suas fotos e a sessão
+Mais detalhes sobre a organização do código, os testes e os comandos disponíveis estão na [documentação de desenvolvimento](docs/desenvolvimento.md).
 
-As fotos são processadas no navegador. O aplicativo não faz upload delas e não usa backend, conta de usuário ou telemetria. O link de autoria abre um site externo quando você o aciona.
+## Privacidade e limitações
 
-A sessão fica em memória: **recarregar ou fechar a página perde as fotos e os ajustes**. Não há salvamento de projeto. Para continuar exportando sem internet, abra **Exportar** enquanto estiver conectado e aguarde a preparação dos recursos; isso vale para a aba aberta, não para uma nova visita offline.
+**Suas fotografias ficam no navegador.** O recortes. não possui backend, contas de usuário, uploads remotos ou telemetria das imagens.
 
-Alguns limites ajudam a manter o processamento viável: 12 fotos, 15 MiB por arquivo, 80 MiB no conjunto, 32 megapixels e 16.000 pixels por lado. Fotos pequenas geram um aviso de resolução, sem impedir o download.
+As colagens também não são salvas automaticamente. A sessão existe apenas enquanto a página permanece aberta: **recarregar ou fechar a página descarta as fotografias importadas e os ajustes realizados**.
 
-HEIC/HEIF não é aceito. O PDF tem texto rasterizado, sem seleção ou busca. Safari real, aparelhos iPhone/Android, leitores de tela e pressão de memória em dispositivos modestos ainda precisam de validação; os testes automatizados não substituem esses usos.
+Os limites atuais são:
+
+- Até 12 fotografias por sessão.
+- Até 15 MiB por arquivo e 80 MiB no conjunto.
+- Imagens de até 32 megapixels e 16.000 pixels por lado.
+- Suporte a JPEG, PNG e WebP. HEIC/HEIF ainda não é aceito.
+
+O PDF é gerado com a composição rasterizada, incluindo os textos. Para impressão em folha A4, a aplicação oferece a opção de exportação nas dimensões correspondentes.
+
+Também é possível continuar editando e exportando sem conexão depois que os recursos necessários estiverem carregados na aba atual. Isso não significa que a aplicação possa ser reaberta offline.
 
 ## Autoria e licenças
 
-recortes. por [alemartins.dev](https://alemartins.dev.br/).
+**recortes.** por [alemartins.dev](https://alemartins.dev.br/).
 
-A licença de reutilização do código e da identidade visual ainda não foi definida. As dependências mantêm suas próprias licenças; o build reúne os avisos em `dist/third-party-licenses.txt`. Veja também [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+O código e a identidade visual não possuem uma licença de reutilização definida. As bibliotecas utilizadas mantêm suas respectivas licenças, documentadas em [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
-As sete fotografias demonstrativas têm suas fontes e condições registradas na [revisão de licenciamento](docs/fotografias-demonstrativas.md). A oitava imagem é um estudo cromático original, gerado por código para o recortes, sem material externo. Os créditos acompanham o build. O material NASA é usado como exemplo, sem endosso; seu uso em anúncios ou capas promocionais exige avaliação própria.
-
-A [entrega dos ajustes finais](docs/ajustes-finais.md) registra a substituição da imagem, as verificações e os materiais históricos preservados fora do futuro Git público.
+As fotografias demonstrativas possuem créditos e condições de uso próprios, disponíveis em [Fotografias demonstrativas](docs/fotografias-demonstrativas.md). O conjunto também inclui um estudo cromático original, gerado especificamente para o projeto. O uso de material da NASA não implica endosso ao recortes.
